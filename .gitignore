@@ -1,7 +1,5 @@
 # Checkpoints
-checkpoints/ProfileBFN
-checkpoints/CLEAN
-checkpoints/ESMFold
+checkpoints
 
 # data
 data

@@ -11,7 +11,7 @@ sample_profile:
 	cp -r ${DATADIR} ${OUT_DIR}
 	for p in `ls ${OUT_DIR}/*.a3m`; do \
 		pp=$${p:0:-4}; \
-		python profile_seqgen.py --ckpt-path ${CKPT_PATH} --num-seqs 4 --batch-size 2 \
+		python profile_seqgen.py --ckpt-path ${CKPT_PATH} --num-seqs 1000 --batch-size 50 \
 				--input-a3m $${pp}.a3m --output-a3m $${pp}.a3m; \
 	done
 
@@ -40,7 +40,7 @@ sample_lysozyme:
 # Represent-Learning
 finetune_represent_learning:
 # TASK choosing from Thermostability, HumanPPI, MetalIonBinding, EC, GO/MF, GO/CC, GO/, DeepLoc/cls2, DeepLoc/cls10
-	${eval TASK:= DeepLoc/cls2}  
+	${eval TASK:= HumanPPI}  
 # MODEL choosing from ProfileBFN_150M, ProfileBFN_650M
 	${eval MODEL:= ProfileBFN_650M}
 	bash ./represent_learning/run_train.sh ${TASK} ${MODEL} train${TASK}_${MODEL}

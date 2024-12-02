@@ -42,15 +42,8 @@ We provide the pretrained checkpoint as [ProfileBFN_650M.ckpt]().
 
 
 ## Training
-Run `make -f scripts.mk` (without the need for data preparation), or alternatively (with data folder correctly configured),
-```bash
-python train_bfn.py --exp_name ${EXP_NAME} --revision ${REVISION}
-```
+Run `make -f scripts.mk ProfileBFN_650M_train` (without the need for data preparation)
 
-where the default values should be set the same as:
-```bash
-python train_bfn.py --sigma1_coord 0.03 --beta1 1.5 --lr 5e-4 --time_emb_dim 1 --epochs 15 --max_grad_norm Q --destination_prediction True --use_discrete_t True --num_samples 10 --sampling_strategy end_back_pmf
-```
 
 
 ## Sampling
