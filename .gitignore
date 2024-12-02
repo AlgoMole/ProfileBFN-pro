@@ -1,0 +1,14 @@
+# Checkpoints
+checkpoints/ProfileBFN
+checkpoints/CLEAN
+checkpoints/ESMFold
+
+# data
+data
+
+# generation-results
+results
+
+# evaluation models
+test/CCMPRED
+test/esm
