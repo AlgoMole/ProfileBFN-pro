@@ -40,7 +40,7 @@ sample_lysozyme:
 # Represent-Learning
 finetune_represent_learning:
 # TASK choosing from Thermostability, HumanPPI, MetalIonBinding, EC, GO/MF, GO/CC, GO/, DeepLoc/cls2, DeepLoc/cls10
-	${eval TASK:= Thermostability}  
+	${eval TASK:= DeepLoc/cls2}  
 # MODEL choosing from ProfileBFN_150M, ProfileBFN_650M
 	${eval MODEL:= ProfileBFN_650M}
 	bash ./represent_learning/run_train.sh ${TASK} ${MODEL} train${TASK}_${MODEL}

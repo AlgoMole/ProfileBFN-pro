@@ -56,7 +56,7 @@ model:
     betas: [0.9, 0.98]
     weight_decay: 0.01
 
-  save_path: checkpoints/Thermostability_bfn_650m
+  save_path: checkpoints/ProfileBFN/Thermostability_ProfileBFN_650M
 
 
 dataset:
