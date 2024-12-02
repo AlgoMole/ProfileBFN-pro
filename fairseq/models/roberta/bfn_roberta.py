@@ -680,6 +680,8 @@ class BFNRobertaEncoder(FairseqEncoder):
         p_base_architecture(args)
         self.args = args
 
+        self.hidden_size = args.encoder_embed_dim
+
         if args.encoder_layers_to_keep:
             args.encoder_layers = len(args.encoder_layers_to_keep.split(","))
 
@@ -720,6 +722,7 @@ class BFNRobertaEncoder(FairseqEncoder):
         src_tokens,
         src_lengths,
         features_only=False,
+        return_last_hidden=False,
         return_all_hiddens=False,
         masked_tokens=None,
         token_dropout=True,
@@ -752,8 +755,12 @@ class BFNRobertaEncoder(FairseqEncoder):
             need_head_weights=need_head_weights,
             return_contacts=return_contacts,
         )
-        if not features_only:
-            x = self.output_layer(x, masked_tokens=masked_tokens)
+        if features_only:
+            return x, extra
+        
+        if return_last_hidden:
+            extra = x
+        x = self.output_layer(x, masked_tokens=masked_tokens)
         return x, extra
 
     def extract_features(

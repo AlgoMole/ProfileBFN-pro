@@ -23,7 +23,9 @@ Data used for evaluating the model is already put in the `data` folder
 
 To train the model with Uniref data, please download them in the `uniref` folder
 
-(Optional) For data needed of CLEAN model, please download `split100.csv`, `split100.fasta` under `data/CLEAN` directory
+For data needed of CLEAN model, please download `split100.csv`, `split100.fasta` under `data/CLEAN` directory
+
+For data used as represent learning, please refer to the same [dataset](https://drive.google.com/drive/folders/11dNGqPYfLE3M-Mbh4U7IQpuHxJpuRr4g?usp=sharing) as SaProt and DPLM and put it into `data/LMDB` folder
 
 ---
 

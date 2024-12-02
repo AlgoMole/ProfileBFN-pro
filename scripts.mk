@@ -2,7 +2,6 @@ SHELL := /bin/bash
 
 current_dir :=$(shell pwd)
 
-
 CKPT_PATH:= /sharefs/gongjj/accounting/gongjj_dev_bfn4prot/bfn_650M_b2m_fromESM_16a100/27ea3bd_18159/checkpoint_31_320000.pt
 
 sample_profile:
@@ -37,6 +36,14 @@ sample_lysozyme:
 		python profile_seqgen.py --ckpt-path ${CKPT_PATH} --num-seqs 4 --batch-size 2 \
 				--input-a3m $${pp}.a3m --output-a3m $${pp}.a3m; \
 	done
+
+# Represent-Learning
+finetune_represent_learning:
+# TASK choosing from Thermostability, HumanPPI, MetalIonBinding, EC, GO/MF, GO/CC, GO/, DeepLoc/cls2, DeepLoc/cls10
+	${eval TASK:= Thermostability}  
+# MODEL choosing from ProfileBFN_150M, ProfileBFN_650M
+	${eval MODEL:= ProfileBFN_650M}
+	bash ./represent_learning/run_train.sh ${TASK} ${MODEL} train${TASK}_${MODEL}
 
 
 # hyper-params

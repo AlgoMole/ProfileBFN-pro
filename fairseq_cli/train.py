@@ -41,7 +41,7 @@ from fairseq.logging import meters, metrics, progress_bar
 from fairseq.model_parallel.megatron_trainer import MegatronTrainer
 from fairseq.trainer import Trainer
 
-from eval.mq_evaluation.mq_evaluation_client import MQEvaluationClient
+from fairseq_cli.mq_evaluation_client import MQEvaluationClient
 
 
 def main(cfg: FairseqConfig) -> None:

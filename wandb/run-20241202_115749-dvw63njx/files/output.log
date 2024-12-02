@@ -1,0 +1,229 @@
+Using 16bit None Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py:92: UserWarning: When using `Trainer(accumulate_grad_batches != 1)` and overriding `LightningModule.optimizer_{step,zero_grad}`, the hooks will not be called on every batch (rather, they are called on every optimization step).
+  rank_zero_warn(
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 0
+INFO:torch.distributed.distributed_c10d:Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 4 nodes.
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]
+   | Name           | Type                         | Params
+-----------------------------------------------------------------
+0  | model          | BFNForSequenceClassification | 652 M
+1  | train_loss     | MeanSquaredError             | 0
+2  | train_spearman | SpearmanCorrCoef             | 0
+3  | train_R2       | R2Score                      | 0
+4  | train_pearson  | PearsonCorrCoef              | 0
+5  | valid_loss     | MeanSquaredError             | 0
+6  | valid_spearman | SpearmanCorrCoef             | 0
+7  | valid_R2       | R2Score                      | 0
+8  | valid_pearson  | PearsonCorrCoef              | 0
+9  | test_loss      | MeanSquaredError             | 0
+10 | test_spearman  | SpearmanCorrCoef             | 0
+11 | test_R2        | R2Score                      | 0
+12 | test_pearson   | PearsonCorrCoef              | 0
+-----------------------------------------------------------------
+652 M     Trainable params
+0         Non-trainable params
+652 M     Total params
+1,305.372 Total estimated model params size (MB)
+Epoch 0:   0%|                                                                                                                                                                                                       | 0/1598 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 36, in _call_and_handle_interrupt
+    return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 88, in launch
+    return function(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1112, in _run
+    results = self._run_stage()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1191, in _run_stage
+    self._run_train()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1214, in _run_train
+    self.fit_loop.run()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 213, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 202, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 241, in _run_optimization
+    closure()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 149, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 135, in closure
+    step_output = self._step_fn()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 419, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1494, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 351, in training_step
+    return self.model(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1040, in forward
+    output = self._run_ddp_forward(*inputs, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1000, in _run_ddp_forward
+    return module_to_run(*inputs[0], **kwargs[0])
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/abstract_model.py", line 148, in training_step
+    outputs = self(**inputs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_regression_model.py", line 41, in forward
+    logits = self.model(inputs['input_ids']).squeeze(dim=-1)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 105, in forward
+    bfn_last_hidden_state = self.bfn(input_ids, return_last_hidden_state=True)[1]
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 63, in forward
+    outputs = self.net(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/esm_bfn.py", line 124, in forward
+    pred_logits, extra = self.bfn_encoder.forward(t, bfn_pmf, src_lengths, return_last_hidden=True)    # [B, T, V]
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 749, in forward
+    x, extra = self.extract_features(
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 777, in extract_features
+    encoder_out = self.sentence_encoder(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 228, in forward
+    return self.forward_scriptable(
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 333, in forward_scriptable
+    lr, attn = layer(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/esm2_transformer_layer.py", line 200, in forward
+    x, attn = self.self_attn(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/rotary_multihead_attention.py", line 438, in forward
+    attn_weights = attn_weights_float.type_as(attn_weights)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 79.35 GiB total capacity; 72.90 GiB already allocated; 6.19 MiB free; 74.74 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 93, in <module>
+    main()
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 88, in main
+    run(config)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 30, in run
+    trainer.fit(model=model, datamodule=data_module)#, ckpt_path=config.model.save_path)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 608, in fit
+    call._call_and_handle_interrupt(
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 59, in _call_and_handle_interrupt
+    trainer.strategy.reconciliate_processes(traceback.format_exc())
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 460, in reconciliate_processes
+    raise DeadlockDetectedException(f"DeadLock detected from rank: {self.global_rank} \n {trace}")
+pytorch_lightning.utilities.exceptions.DeadlockDetectedException: DeadLock detected from rank: 0
+ Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 36, in _call_and_handle_interrupt
+    return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 88, in launch
+    return function(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _fit_impl
+    self._run(model, ckpt_path=self.ckpt_path)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1112, in _run
+    results = self._run_stage()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1191, in _run_stage
+    self._run_train()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1214, in _run_train
+    self.fit_loop.run()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance
+    self._outputs = self.epoch_loop.run(self._data_fetcher)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 213, in advance
+    batch_output = self.batch_loop.run(kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance
+    outputs = self.optimizer_loop.run(optimizers, kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run
+    self.advance(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 202, in advance
+    result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 241, in _run_optimization
+    closure()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 149, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 135, in closure
+    step_output = self._step_fn()
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 419, in _training_step
+    training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1494, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 351, in training_step
+    return self.model(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1040, in forward
+    output = self._run_ddp_forward(*inputs, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1000, in _run_ddp_forward
+    return module_to_run(*inputs[0], **kwargs[0])
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward
+    output = self._forward_module.training_step(*inputs, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/abstract_model.py", line 148, in training_step
+    outputs = self(**inputs)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_regression_model.py", line 41, in forward
+    logits = self.model(inputs['input_ids']).squeeze(dim=-1)
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 105, in forward
+    bfn_last_hidden_state = self.bfn(input_ids, return_last_hidden_state=True)[1]
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 63, in forward
+    outputs = self.net(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/esm_bfn.py", line 124, in forward
+    pred_logits, extra = self.bfn_encoder.forward(t, bfn_pmf, src_lengths, return_last_hidden=True)    # [B, T, V]
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 749, in forward
+    x, extra = self.extract_features(
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 777, in extract_features
+    encoder_out = self.sentence_encoder(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 228, in forward
+    return self.forward_scriptable(
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 333, in forward_scriptable
+    lr, attn = layer(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/esm2_transformer_layer.py", line 200, in forward
+    x, attn = self.self_attn(
+  File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/rotary_multihead_attention.py", line 438, in forward
+    attn_weights = attn_weights_float.type_as(attn_weights)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 79.35 GiB total capacity; 72.90 GiB already allocated; 6.19 MiB free; 74.74 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

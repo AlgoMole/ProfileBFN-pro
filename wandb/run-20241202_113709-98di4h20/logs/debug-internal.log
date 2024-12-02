@@ -1,0 +1,286 @@
+2024-12-02 11:37:09,433 INFO    StreamThr :43406 [internal.py:wandb_internal():86] W&B internal server running at pid: 43406, started at: 2024-12-02 11:37:09.432394
+2024-12-02 11:37:09,435 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status
+2024-12-02 11:37:09,437 INFO    WriterThread:43406 [datastore.py:open_for_write():87] open: ./wandb/run-20241202_113709-98di4h20/run-98di4h20.wandb
+2024-12-02 11:37:09,438 DEBUG   SenderThread:43406 [sender.py:send():379] send: header
+2024-12-02 11:37:09,681 DEBUG   SenderThread:43406 [sender.py:send():379] send: run
+2024-12-02 11:37:09,688 INFO    SenderThread:43406 [sender.py:_setup_resume():749] checking resume status for None/Thermostability/98di4h20
+2024-12-02 11:37:14,682 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:19,683 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:24,684 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:29,685 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:34,686 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:39,687 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:44,688 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:49,689 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:37:52,018 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: check_version
+2024-12-02 11:37:52,071 INFO    SenderThread:43406 [dir_watcher.py:__init__():211] watching files in: ./wandb/run-20241202_113709-98di4h20/files
+2024-12-02 11:37:52,071 INFO    SenderThread:43406 [sender.py:_start_run_threads():1124] run started: 98di4h20 with start time 1733139429.432637
+2024-12-02 11:37:52,072 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: check_version
+2024-12-02 11:37:52,072 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:37:52,381 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: run_start
+2024-12-02 11:37:52,384 DEBUG   HandlerThread:43406 [system_info.py:__init__():26] System info init
+2024-12-02 11:37:52,384 DEBUG   HandlerThread:43406 [system_info.py:__init__():41] System info init done
+2024-12-02 11:37:52,384 INFO    HandlerThread:43406 [system_monitor.py:start():194] Starting system monitor
+2024-12-02 11:37:52,384 INFO    SystemMonitor:43406 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-12-02 11:37:52,385 INFO    HandlerThread:43406 [system_monitor.py:probe():214] Collecting system info
+2024-12-02 11:37:52,385 INFO    SystemMonitor:43406 [interfaces.py:start():190] Started cpu monitoring
+2024-12-02 11:37:52,385 INFO    SystemMonitor:43406 [interfaces.py:start():190] Started disk monitoring
+2024-12-02 11:37:52,386 INFO    SystemMonitor:43406 [interfaces.py:start():190] Started gpu monitoring
+2024-12-02 11:37:52,386 INFO    SystemMonitor:43406 [interfaces.py:start():190] Started memory monitoring
+2024-12-02 11:37:52,387 INFO    SystemMonitor:43406 [interfaces.py:start():190] Started network monitoring
+2024-12-02 11:37:52,406 DEBUG   HandlerThread:43406 [system_info.py:probe():150] Probing system
+2024-12-02 11:37:52,411 DEBUG   HandlerThread:43406 [system_info.py:_probe_git():135] Probing git
+2024-12-02 11:37:52,420 DEBUG   HandlerThread:43406 [system_info.py:_probe_git():143] Probing git done
+2024-12-02 11:37:52,420 DEBUG   HandlerThread:43406 [system_info.py:probe():198] Probing system done
+2024-12-02 11:37:52,421 DEBUG   HandlerThread:43406 [system_monitor.py:probe():223] {'os': 'Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.31', 'python': '3.9.17', 'heartbeatAt': '2024-12-02T11:37:52.406964', 'startedAt': '2024-12-02T11:37:09.420115', 'docker': None, 'cuda': None, 'args': ('--config', 'represent_learning/config/Thermostability/bfn.yaml', '--model.save_path', 'checkpoints/Thermostability_trainThermostability_BFN', '--model_checkpoint.dirpath', 'checkpoints/Thermostability_trainThermostability_BFN', '--Trainer.logger', 'wandb'), 'state': 'running', 'program': '/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py', 'codePathLocal': 'represent_learning/training.py', 'codePath': 'represent_learning/training.py', 'git': {'remote': 'git@github.com:AlgoMole/ProfileBFN-pro.git', 'commit': '712a087b708854d75a38eda32ce0556f7d2d2b0e'}, 'email': None, 'root': '/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro', 'host': 't-20241202141514-zxpxw-worker-0', 'username': 'root', 'executable': '/root/miniconda3/bin/python', 'cpu_count': 56, 'cpu_count_logical': 10, 'cpu_freq': {'current': 2300.0279999999993, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}, {'current': 2300.028, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 3519.7501831054688, 'used': 743.2641487121582}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85198045184}], 'memory': {'total': 220.0}}
+2024-12-02 11:37:52,421 INFO    HandlerThread:43406 [system_monitor.py:probe():224] Finished collecting system info
+2024-12-02 11:37:52,421 INFO    HandlerThread:43406 [system_monitor.py:probe():227] Publishing system info
+2024-12-02 11:37:52,421 DEBUG   HandlerThread:43406 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-12-02 11:37:53,073 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_created():271] file/dir created: ./wandb/run-20241202_113709-98di4h20/files/conda-environment.yaml
+2024-12-02 11:37:55,441 DEBUG   HandlerThread:43406 [system_info.py:_save_conda():222] Saving conda packages done
+2024-12-02 11:37:55,443 INFO    HandlerThread:43406 [system_monitor.py:probe():229] Finished publishing system info
+2024-12-02 11:37:55,447 DEBUG   SenderThread:43406 [sender.py:send():379] send: files
+2024-12-02 11:37:55,447 INFO    SenderThread:43406 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-12-02 11:37:55,570 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: python_packages
+2024-12-02 11:37:55,570 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: python_packages
+2024-12-02 11:37:55,572 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: internal_messages
+2024-12-02 11:37:55,573 DEBUG   SenderThread:43406 [sender.py:send():379] send: telemetry
+2024-12-02 11:37:55,573 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: stop_status
+2024-12-02 11:37:55,574 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: stop_status
+2024-12-02 11:37:56,073 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_modified():288] file/dir modified: ./wandb/run-20241202_113709-98di4h20/files/conda-environment.yaml
+2024-12-02 11:37:56,073 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_created():271] file/dir created: ./wandb/run-20241202_113709-98di4h20/files/wandb-metadata.json
+2024-12-02 11:37:56,073 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_created():271] file/dir created: ./wandb/run-20241202_113709-98di4h20/files/requirements.txt
+2024-12-02 11:37:58,907 INFO    wandb-upload_0:43406 [upload_job.py:push():131] Uploaded file /tmp/tmpzt8ul0s6wandb/5vfk45sp-wandb-metadata.json
+2024-12-02 11:38:00,620 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:01,415 DEBUG   SenderThread:43406 [sender.py:send():379] send: metric
+2024-12-02 11:38:01,415 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:38:01,415 DEBUG   SenderThread:43406 [sender.py:send():379] send: telemetry
+2024-12-02 11:38:01,416 DEBUG   SenderThread:43406 [sender.py:send():379] send: metric
+2024-12-02 11:38:01,416 WARNING SenderThread:43406 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-12-02 11:38:02,075 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_created():271] file/dir created: ./wandb/run-20241202_113709-98di4h20/files/output.log
+2024-12-02 11:38:02,395 DEBUG   SenderThread:43406 [sender.py:send():379] send: exit
+2024-12-02 11:38:02,395 INFO    SenderThread:43406 [sender.py:send_exit():586] handling exit code: 1
+2024-12-02 11:38:02,395 INFO    SenderThread:43406 [sender.py:send_exit():588] handling runtime: 10
+2024-12-02 11:38:02,397 INFO    SenderThread:43406 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-02 11:38:02,397 INFO    SenderThread:43406 [sender.py:send_exit():594] send defer
+2024-12-02 11:38:02,397 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,398 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 0
+2024-12-02 11:38:02,398 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,399 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-12-02 11:38:02,399 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 1
+2024-12-02 11:38:02,399 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,400 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 1
+2024-12-02 11:38:02,400 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,400 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-12-02 11:38:02,400 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 2
+2024-12-02 11:38:02,401 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,401 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 2
+2024-12-02 11:38:02,401 INFO    HandlerThread:43406 [system_monitor.py:finish():203] Stopping system monitor
+2024-12-02 11:38:02,401 DEBUG   SystemMonitor:43406 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-12-02 11:38:02,401 DEBUG   SystemMonitor:43406 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-12-02 11:38:02,401 INFO    HandlerThread:43406 [interfaces.py:finish():202] Joined cpu monitor
+2024-12-02 11:38:02,401 DEBUG   SystemMonitor:43406 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-12-02 11:38:02,404 INFO    HandlerThread:43406 [interfaces.py:finish():202] Joined disk monitor
+2024-12-02 11:38:02,419 INFO    HandlerThread:43406 [interfaces.py:finish():202] Joined gpu monitor
+2024-12-02 11:38:02,419 INFO    HandlerThread:43406 [interfaces.py:finish():202] Joined memory monitor
+2024-12-02 11:38:02,419 INFO    HandlerThread:43406 [interfaces.py:finish():202] Joined network monitor
+2024-12-02 11:38:02,419 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,420 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-12-02 11:38:02,420 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 3
+2024-12-02 11:38:02,420 DEBUG   SenderThread:43406 [sender.py:send():379] send: stats
+2024-12-02 11:38:02,420 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,420 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 3
+2024-12-02 11:38:02,420 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,420 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-12-02 11:38:02,420 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 4
+2024-12-02 11:38:02,421 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,421 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 4
+2024-12-02 11:38:02,421 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,421 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-12-02 11:38:02,421 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 5
+2024-12-02 11:38:02,421 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,421 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 5
+2024-12-02 11:38:02,421 DEBUG   SenderThread:43406 [sender.py:send():379] send: summary
+2024-12-02 11:38:02,421 INFO    SenderThread:43406 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-12-02 11:38:02,422 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,422 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-12-02 11:38:02,422 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 6
+2024-12-02 11:38:02,422 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:02,422 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 6
+2024-12-02 11:38:02,422 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:02,422 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-12-02 11:38:02,426 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:38:03,075 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_created():271] file/dir created: ./wandb/run-20241202_113709-98di4h20/files/wandb-summary.json
+2024-12-02 11:38:03,395 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:38:04,075 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_modified():288] file/dir modified: ./wandb/run-20241202_113709-98di4h20/files/output.log
+2024-12-02 11:38:08,396 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:13,397 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:16,235 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 7
+2024-12-02 11:38:16,236 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:38:16,236 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:16,236 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 7
+2024-12-02 11:38:16,236 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:38:16,236 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:16,236 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-12-02 11:38:16,398 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:38:17,079 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_modified():288] file/dir modified: ./wandb/run-20241202_113709-98di4h20/files/config.yaml
+2024-12-02 11:38:19,456 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 8
+2024-12-02 11:38:19,456 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:38:19,456 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:19,457 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 8
+2024-12-02 11:38:19,457 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:38:19,457 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-12-02 11:38:19,457 INFO    SenderThread:43406 [job_builder.py:build():318] Attempting to build job artifact
+2024-12-02 11:38:19,458 INFO    SenderThread:43406 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-12-02 11:38:19,487 INFO    SenderThread:43406 [job_builder.py:build():431] adding wandb-job metadata file
+2024-12-02 11:38:19,489 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 9
+2024-12-02 11:38:19,490 DEBUG   SenderThread:43406 [sender.py:send():379] send: artifact
+2024-12-02 11:38:19,490 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:38:19,492 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 9
+2024-12-02 11:38:20,080 INFO    Thread-12 :43406 [dir_watcher.py:_on_file_modified():288] file/dir modified: ./wandb/run-20241202_113709-98di4h20/files/output.log
+2024-12-02 11:38:20,400 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:38:25,401 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:30,403 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:35,405 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:40,406 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:45,408 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:50,409 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:38:55,411 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:00,412 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:05,414 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:10,416 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:15,417 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:20,419 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:21,720 WARNING FileStreamThread:43406 [file_stream.py:request_with_retry():687] requests_with_retry encountered retryable exception: 408 Client Error: Request Timeout for url: https://api.wandb.ai/files/algomole/Thermostability/98di4h20/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x7f7c2ff0c820>>, timeout=180.0), args: ('https://api.wandb.ai/files/algomole/Thermostability/98di4h20/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"_wandb": {"runtime": 10}}']}, 'wandb-events.jsonl': {'offset': 0, 'content': ['{"system.network.sent": 25674.33, "system.network.recv": 22555.0, "system.cpu": 5.54, "system.cpu.0.cpu_percent": 0.25, "system.cpu.1.cpu_percent": 0.08, "system.cpu.2.cpu_percent": 8.08, "system.cpu.3.cpu_percent": 0.17, "system.cpu.4.cpu_percent": 2.43, "system.cpu.5.cpu_percent": 0.25, "system.cpu.6.cpu_percent": 0.42, "system.cpu.7.cpu_percent": 0.5, "system.cpu.8.cpu_percent": 2.48, "system.cpu.9.cpu_percent": 0.33, "system.cpu.10.cpu_percent": 0.08, "system.cpu.11.cpu_percent": 0.17, "system.cpu.12.cpu_percent": 2.0, "system.cpu.13.cpu_percent": 0.17, "system.cpu.14.cpu_percent": 0.42, "system.cpu.15.cpu_percent": 0.25, "system.cpu.16.cpu_percent": 0.33, "system.cpu.17.cpu_percent": 0.17, "system.cpu.18.cpu_percent": 0.33, "system.cpu.19.cpu_percent": 0.33, "system.cpu.20.cpu_percent": 0.25, "system.cpu.21.cpu_percent": 0.25, "system.cpu.22.cpu_percent": 0.25, "system.cpu.23.cpu_percent": 0.25, "system.cpu.24.cpu_percent": 0.42, "system.cpu.25.cpu_percent": 0.17, "system.cpu.26.cpu_percent": 0.58, "system.cpu.27.cpu_percent": 0.25, "system.cpu.28.cpu_percent": 0.42, "system.cpu.29.cpu_percent": 0.0, "system.cpu.30.cpu_percent": 0.25, "system.cpu.31.cpu_percent": 0.25, "system.cpu.32.cpu_percent": 0.25, "system.cpu.33.cpu_percent": 0.83, "system.cpu.34.cpu_percent": 1.5, "system.cpu.35.cpu_percent": 0.5, "system.cpu.36.cpu_percent": 0.25, "system.cpu.37.cpu_percent": 0.08, "system.cpu.38.cpu_percent": 0.33, "system.cpu.39.cpu_percent": 0.08, "system.cpu.40.cpu_percent": 0.33, "system.cpu.41.cpu_percent": 0.08, "system.cpu.42.cpu_percent": 0.33, "system.cpu.43.cpu_percent": 0.0, "system.cpu.44.cpu_percent": 0.17, "system.cpu.45.cpu_percent": 0.08, "system.cpu.46.cpu_percent": 0.42, "system.cpu.47.cpu_percent": 0.17, "system.cpu.48.cpu_percent": 83.33, "system.cpu.49.cpu_percent": 0.08, "system.cpu.50.cpu_percent": 0.25, "system.cpu.51.cpu_percent": 1.92, "system.cpu.52.cpu_percent": 0.08, "system.cpu.53.cpu_percent": 0.0, "system.cpu.54.cpu_percent": 0.17, "system.cpu.55.cpu_percent": 0.17, "system.cpu.56.cpu_percent": 36.65, "system.cpu.57.cpu_percent": 1.75, "system.cpu.58.cpu_percent": 0.83, "system.cpu.59.cpu_percent": 0.08, "system.cpu.60.cpu_percent": 1.58, "system.cpu.61.cpu_percent": 8.08, "system.cpu.62.cpu_percent": 0.5, "system.cpu.63.cpu_percent": 1.08, "system.cpu.64.cpu_percent": 0.92, "system.cpu.65.cpu_percent": 0.17, "system.cpu.66.cpu_percent": 2.25, "system.cpu.67.cpu_percent": 25.17, "system.cpu.68.cpu_percent": 1.08, "system.cpu.69.cpu_percent": 0.75, "system.cpu.70.cpu_percent": 0.42, "system.cpu.71.cpu_percent": 0.5, "system.cpu.72.cpu_percent": 2.33, "system.cpu.73.cpu_percent": 0.83, "system.cpu.74.cpu_percent": 2.42, "system.cpu.75.cpu_percent": 0.42, "system.cpu.76.cpu_percent": 0.75, "system.cpu.77.cpu_percent": 0.08, "system.cpu.78.cpu_percent": 2.58, "system.cpu.79.cpu_percent": 0.42, "system.cpu.80.cpu_percent": 0.33, "system.cpu.81.cpu_percent": 0.17, "system.cpu.82.cpu_percent": 0.5, "system.cpu.83.cpu_percent": 0.25, "system.cpu.84.cpu_percent": 0.75, "system.cpu.85.cpu_percent": 0.42, "system.cpu.86.cpu_percent": 0.67, "system.cpu.87.cpu_percent": 0.58, "system.cpu.88.cpu_percent": 0.83, "system.cpu.89.cpu_percent": 0.58, "system.cpu.90.cpu_percent": 9.6, "system.cpu.91.cpu_percent": 0.42, "system.cpu.92.cpu_percent": 1.08, "system.cpu.93.cpu_percent": 0.17, "system.cpu.94.cpu_percent": 1.17, "system.cpu.95.cpu_percent": 0.25, "system.cpu.96.cpu_percent": 0.5, "system.cpu.97.cpu_percent": 0.42, "system.cpu.98.cpu_percent": 0.33, "system.cpu.99.cpu_percent": 0.25, "system.cpu.100.cpu_percent": 1.83, "system.cpu.101.cpu_percent": 0.25, "system.cpu.102.cpu_percent": 0.67, "system.cpu.103.cpu_percent": 0.17, "system.cpu.104.cpu_percent": 0.42, "system.cpu.105.cpu_percent": 0.42, "system.cpu.106.cpu_percent": 0.5, "system.cpu.107.cpu_percent": 0.17, "system.cpu.108.cpu_percent": 0.33, "system.cpu.109.cpu_percent": 0.08, "system.cpu.110.cpu_percent": 0.5, "system.cpu.111.cpu_percent": 1.5, "system.proc.cpu.threads": 12, "system.proc.memory.availableMB": 215246.71, "system.memory": 4.43, "system.proc.memory.rssMB": 10374.26, "system.proc.memory.percent": 4.61, "_wandb": true, "_timestamp": 1733139482.402775, "_runtime": 52.970138}']}, 'output.log': {'offset': 0, 'content': ['ERROR 2024-12-02T11:38:03.434859 Using 16bit None Automatic Mixed Precision (AMP)\n', 'ERROR 2024-12-02T11:38:03.434859 GPU available: True (cuda), used: True\n', 'ERROR 2024-12-02T11:38:03.434859 TPU available: False, using: 0 TPU cores\n', 'ERROR 2024-12-02T11:38:03.434859 IPU available: False, using: 0 IPUs\n', 'ERROR 2024-12-02T11:38:03.434859 HPU available: False, using: 0 HPUs\n', 'ERROR 2024-12-02T11:38:03.434859 `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..\n', 'ERROR 2024-12-02T11:38:03.434859 /root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/configuration_validator.py:92: UserWarning: When using `Trainer(accumulate_grad_batches != 1)` and overriding `LightningModule.optimizer_{step,zero_grad}`, the hooks will not be called on every batch (rather, they are called on every optimization step).\n', 'ERROR 2024-12-02T11:38:03.434859   rank_zero_warn(\n', 'ERROR 2024-12-02T11:38:03.434859 Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1\n', 'ERROR 2024-12-02T11:38:03.434859 INFO:torch.distributed.distributed_c10d:Added key: store_based_barrier_key:1 to store for rank: 0\n', 'ERROR 2024-12-02T11:38:03.434859 INFO:torch.distributed.distributed_c10d:Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.\n', 'ERROR 2024-12-02T11:38:03.434859 ----------------------------------------------------------------------------------------------------\n', 'ERROR 2024-12-02T11:38:03.434859 distributed_backend=nccl\n', 'ERROR 2024-12-02T11:38:03.434859 All distributed processes registered. Starting with 1 processes\n', 'ERROR 2024-12-02T11:38:03.434859 ----------------------------------------------------------------------------------------------------\n', "ERROR 2024-12-02T11:38:03.434859 You are using a CUDA device ('NVIDIA A100-SXM4-80GB') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision\n", 'ERROR 2024-12-02T11:38:03.434859 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5,6,7]\n', 'ERROR 2024-12-02T11:38:03.434859    | Name           | Type                         | Params\n', 'ERROR 2024-12-02T11:38:03.434859 -----------------------------------------------------------------\n', 'ERROR 2024-12-02T11:38:03.434859 0  | model          | BFNForSequenceClassification | 652 M\n', 'ERROR 2024-12-02T11:38:03.434859 1  | train_loss     | MeanSquaredError             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 2  | train_spearman | SpearmanCorrCoef             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 3  | train_R2       | R2Score                      | 0\n', 'ERROR 2024-12-02T11:38:03.434859 4  | train_pearson  | PearsonCorrCoef              | 0\n', 'ERROR 2024-12-02T11:38:03.434859 5  | valid_loss     | MeanSquaredError             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 6  | valid_spearman | SpearmanCorrCoef             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 7  | valid_R2       | R2Score                      | 0\n', 'ERROR 2024-12-02T11:38:03.434859 8  | valid_pearson  | PearsonCorrCoef              | 0\n', 'ERROR 2024-12-02T11:38:03.434859 9  | test_loss      | MeanSquaredError             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 10 | test_spearman  | SpearmanCorrCoef             | 0\n', 'ERROR 2024-12-02T11:38:03.434859 11 | test_R2        | R2Score                      | 0\n', 'ERROR 2024-12-02T11:38:03.434859 12 | test_pearson   | PearsonCorrCoef              | 0\n', 'ERROR 2024-12-02T11:38:03.434859 -----------------------------------------------------------------\n', 'ERROR 2024-12-02T11:38:03.434859 652 M     Trainable params\n', 'ERROR 2024-12-02T11:38:03.434859 0         Non-trainable params\n', 'ERROR 2024-12-02T11:38:03.434859 652 M     Total params\n', 'ERROR 2024-12-02T11:38:03.434859 1,305.372 Total estimated model params size (MB)\n', 'ERROR 2024-12-02T11:38:03.434859 Traceback (most recent call last):\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 93, in <module>\n', 'ERROR 2024-12-02T11:38:03.434859     main()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 88, in main\n', 'ERROR 2024-12-02T11:38:03.434859     run(config)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/training.py", line 30, in run\n', 'ERROR 2024-12-02T11:38:03.434859     trainer.fit(model=model, datamodule=data_module)#, ckpt_path=config.model.save_path)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 608, in fit\n', 'ERROR 2024-12-02T11:38:03.434859     call._call_and_handle_interrupt(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/call.py", line 36, in _call_and_handle_interrupt\n', 'ERROR 2024-12-02T11:38:03.434859     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 88, in launch\n', 'ERROR 2024-12-02T11:38:03.434859     return function(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _fit_impl\n', 'ERROR 2024-12-02T11:38:03.434859     self._run(model, ckpt_path=self.ckpt_path)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1112, in _run\n', 'ERROR 2024-12-02T11:38:03.434859     results = self._run_stage()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1191, in _run_stage\n', 'ERROR 2024-12-02T11:38:03.434859     self._run_train()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1214, in _run_train\n', 'ERROR 2024-12-02T11:38:03.434859     self.fit_loop.run()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run\n', 'ERROR 2024-12-02T11:38:03.434859     self.advance(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py", line 267, in advance\n', 'ERROR 2024-12-02T11:38:03.434859     self._outputs = self.epoch_loop.run(self._data_fetcher)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run\n', 'ERROR 2024-12-02T11:38:03.434859     self.advance(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/training_epoch_loop.py", line 213, in advance\n', 'ERROR 2024-12-02T11:38:03.434859     batch_output = self.batch_loop.run(kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run\n', 'ERROR 2024-12-02T11:38:03.434859     self.advance(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/batch/training_batch_loop.py", line 88, in advance\n', 'ERROR 2024-12-02T11:38:03.434859     outputs = self.optimizer_loop.run(optimizers, kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/loop.py", line 199, in run\n', 'ERROR 2024-12-02T11:38:03.434859     self.advance(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 202, in advance\n', 'ERROR 2024-12-02T11:38:03.434859     result = self._run_optimization(kwargs, self._optimizers[self.optim_progress.optimizer_position])\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 241, in _run_optimization\n', 'ERROR 2024-12-02T11:38:03.434859     closure()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 149, in __call__\n', 'ERROR 2024-12-02T11:38:03.434859     self._result = self.closure(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 135, in closure\n', 'ERROR 2024-12-02T11:38:03.434859     step_output = self._step_fn()\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/loops/optimization/optimizer_loop.py", line 419, in _training_step\n', 'ERROR 2024-12-02T11:38:03.434859     training_step_output = self.trainer._call_strategy_hook("training_step", *kwargs.values())\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1494, in _call_strategy_hook\n', 'ERROR 2024-12-02T11:38:03.434859     output = fn(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/strategies/ddp.py", line 351, in training_step\n', 'ERROR 2024-12-02T11:38:03.434859     return self.model(*args, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1040, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     output = self._run_ddp_forward(*inputs, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1000, in _run_ddp_forward\n', 'ERROR 2024-12-02T11:38:03.434859     return module_to_run(*inputs[0], **kwargs[0])\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/pytorch_lightning/overrides/base.py", line 98, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     output = self._forward_module.training_step(*inputs, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/abstract_model.py", line 148, in training_step\n', 'ERROR 2024-12-02T11:38:03.434859     outputs = self(**inputs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_regression_model.py", line 41, in forward\n', "ERROR 2024-12-02T11:38:03.434859     logits = self.model(inputs['input_ids']).squeeze(dim=-1)\n", 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 105, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     bfn_last_hidden_state = self.bfn(input_ids, return_last_hidden_state=True)[1]\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/bfn_model.py", line 63, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     outputs = self.net(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/represent_learning/model/bfn/esm_bfn.py", line 124, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     pred_logits, extra = self.bfn_encoder.forward(t, bfn_pmf, src_lengths, return_last_hidden=True)    # [B, T, V]\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 749, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     x, extra = self.extract_features(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/roberta/bfn_roberta.py", line 777, in extract_features\n', 'ERROR 2024-12-02T11:38:03.434859     encoder_out = self.sentence_encoder(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 228, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     return self.forward_scriptable(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/models/transformer/bfn_transformer_encoder.py", line 333, in forward_scriptable\n', 'ERROR 2024-12-02T11:38:03.434859     lr, attn = layer(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/esm2_transformer_layer.py", line 200, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     x, attn = self.self_attn(\n', 'ERROR 2024-12-02T11:38:03.434859   File "/root/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl\n', 'ERROR 2024-12-02T11:38:03.434859     return forward_call(*input, **kwargs)\n', 'ERROR 2024-12-02T11:38:03.434859   File "/AIRvePFS/ai4science/users/yupei/ProfileBFN-pro/fairseq/modules/rotary_multihead_attention.py", line 438, in forward\n', 'ERROR 2024-12-02T11:38:03.434859     attn_weights = attn_weights_float.type_as(attn_weights)\n', 'ERROR 2024-12-02T11:38:03.434859 torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 79.35 GiB total capacity; 76.04 GiB already allocated; 11.19 MiB free; 77.96 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n', '2024-12-02T11:38:03.435983 Epoch 0:   0%|                                                                                                                                                                                                       | 0/6392 [00:00<?, ?it/s]\n']}}, 'dropped': 0}}
+2024-12-02 11:39:25,420 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:30,422 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:35,423 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:40,425 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:41,668 INFO    wandb-upload_0:43406 [upload_job.py:push():89] Uploaded file /tmp/tmpgowu4ly0/wandb-job.json
+2024-12-02 11:39:41,987 INFO    wandb-upload_1:43406 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmp8qcnc4qc
+2024-12-02 11:39:45,427 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:50,428 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:39:55,430 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:40:00,432 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:40:05,433 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:40:09,356 INFO    SenderThread:43406 [sender.py:send_artifact():1468] sent artifact job-git_github.com_AlgoMole_ProfileBFN-pro.git_represent_learning_training.py - {'id': 'QXJ0aWZhY3Q6MTM1NjgxMjg5MA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUwMDE0MTQ5MA==', 'latestArtifact': None}}
+2024-12-02 11:40:09,356 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:40:09,356 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:40:09,357 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-12-02 11:40:09,357 INFO    SenderThread:43406 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-12-02 11:40:10,093 INFO    SenderThread:43406 [dir_watcher.py:finish():388] scan: ./wandb/run-20241202_113709-98di4h20/files
+2024-12-02 11:40:10,093 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/conda-environment.yaml conda-environment.yaml
+2024-12-02 11:40:10,094 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/wandb-metadata.json wandb-metadata.json
+2024-12-02 11:40:10,094 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/config.yaml config.yaml
+2024-12-02 11:40:10,096 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/requirements.txt requirements.txt
+2024-12-02 11:40:10,098 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/wandb-summary.json wandb-summary.json
+2024-12-02 11:40:10,099 INFO    SenderThread:43406 [dir_watcher.py:finish():402] scan save: ./wandb/run-20241202_113709-98di4h20/files/output.log output.log
+2024-12-02 11:40:10,099 INFO    SenderThread:43406 [sender.py:transition_state():614] send defer: 10
+2024-12-02 11:40:10,099 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:10,101 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: defer
+2024-12-02 11:40:10,107 INFO    HandlerThread:43406 [handler.py:handle_request_defer():172] handle defer: 10
+2024-12-02 11:40:10,107 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: defer
+2024-12-02 11:40:10,108 INFO    SenderThread:43406 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-12-02 11:40:10,108 INFO    SenderThread:43406 [file_pusher.py:finish():172] shutting down file pusher
+2024-12-02 11:40:10,435 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: keepalive
+2024-12-02 11:40:10,435 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:10,435 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:10,978 INFO    wandb-upload_1:43406 [upload_job.py:push():131] Uploaded file ./wandb/run-20241202_113709-98di4h20/files/config.yaml
+2024-12-02 11:40:11,436 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:11,436 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:12,436 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:12,437 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:12,772 INFO    wandb-upload_0:43406 [upload_job.py:push():131] Uploaded file ./wandb/run-20241202_113709-98di4h20/files/conda-environment.yaml
+2024-12-02 11:40:13,437 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:13,438 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:14,438 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:14,438 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:14,439 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:40:15,227 INFO    wandb-upload_4:43406 [upload_job.py:push():131] Uploaded file ./wandb/run-20241202_113709-98di4h20/files/output.log
+2024-12-02 11:40:15,438 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:15,439 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:16,440 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:16,440 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:17,440 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:17,441 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:18,441 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:18,442 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:19,442 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:19,442 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: status_report
+2024-12-02 11:40:19,442 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:20,442 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:20,443 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:21,443 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:21,443 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:22,444 DEBUG   HandlerThread:43406 [handler.py:handle_request():146] handle_request: poll_exit
+2024-12-02 11:40:22,444 DEBUG   SenderThread:43406 [sender.py:send_request():406] send_request: poll_exit
+2024-12-02 11:40:22,630 WARNING StreamThr :43406 [internal.py:is_dead():414] Internal process exiting, parent pid 43223 disappeared
+2024-12-02 11:40:22,631 ERROR   StreamThr :43406 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-12-02 11:40:23,444 INFO    HandlerThread:43406 [handler.py:finish():866] shutting down handler
+2024-12-02 11:40:23,444 INFO    WriterThread:43406 [datastore.py:close():296] close: ./wandb/run-20241202_113709-98di4h20/run-98di4h20.wandb
+2024-12-02 11:40:23,445 INFO    SenderThread:43406 [sender.py:finish():1546] shutting down sender
+2024-12-02 11:40:23,445 INFO    SenderThread:43406 [file_pusher.py:finish():172] shutting down file pusher
+2024-12-02 11:40:23,445 INFO    SenderThread:43406 [file_pusher.py:join():178] waiting for file pusher
+2024-12-02 11:40:32,279 INFO    wandb-upload_3:43406 [upload_job.py:push():131] Uploaded file ./wandb/run-20241202_113709-98di4h20/files/wandb-summary.json
+2024-12-02 11:40:51,316 INFO    wandb-upload_2:43406 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f7c2fd13c10>, 'Connection to api.wandb.ai timed out. (connect timeout=20)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/requests/adapters.py", line 487, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/lib/python3.9/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7c2fd13c10>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/root/miniconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/root/miniconda3/lib/python3.9/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/lib/python3.9/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7c2fd13c10>, 'Connection to api.wandb.ai timed out. (connect timeout=20)'))
+2024-12-02 11:40:58,791 INFO    wandb-upload_2:43406 [upload_job.py:push():131] Uploaded file ./wandb/run-20241202_113709-98di4h20/files/requirements.txt
+2024-12-02 11:40:58,992 INFO    Thread-11 :43406 [sender.py:transition_state():614] send defer: 11
+2024-12-02 11:40:59,483 INFO    SenderThread:43406 [file_stream.py:finish():614] file stream finish called
+2024-12-02 11:42:14,811 INFO    SenderThread:43406 [file_stream.py:finish():618] file stream finish is done
