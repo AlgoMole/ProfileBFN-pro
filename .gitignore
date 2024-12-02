@@ -11,3 +11,6 @@ results
 
 # evaluation models
 test/CCMPRED
+
+# logs
+wandb
