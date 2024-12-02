@@ -242,13 +242,10 @@ class ProteinBFNLMTask(FairseqTask):
     def _load_dataset_split(self, split, epoch, combine, n_train_samples=-1):
         paths = utils.split_paths(self.cfg.data)
         paths = glob_paths(paths)
-
+        print(f"number of paths: {len(paths)}")
         assert len(paths) > 0
-
         data_path = paths[(epoch - 1) % len(paths)]
         split_path = os.path.join(data_path, split)
-
-        # logging.critical(f"loading indexed dataset with: split_path =  {split_path}, combine = {combine}")
 
         dataset = data_utils.load_indexed_dataset(
             split_path,
@@ -260,10 +257,6 @@ class ProteinBFNLMTask(FairseqTask):
             raise FileNotFoundError(
                 "Dataset not found: {} ({})".format(split, split_path)
             )
-        
-        # logging.critical(f"original fasta dataset [{len(dataset)}] = [{dataset[0].shape, dataset[1].shape, dataset[1].shape}] {dataset[0], dataset[1], dataset[2]}")
-
-        # logging.critical(f"shortening dataset with : split = {split}, shorten_data_split_list = {self.cfg.shorten_data_split_list}, shorten method = {self.cfg.shorten_method}, tokens per sample = {self.cfg.tokens_per_sample}")
 
         dataset = maybe_shorten_dataset(
             dataset,
@@ -272,12 +265,7 @@ class ProteinBFNLMTask(FairseqTask):
             self.cfg.shorten_method,
             self.cfg.tokens_per_sample,
             self.cfg.seed,  # internal recombine with epoch and index
-            epoch
         )
-
-        # logging.critical(f"shortened fasta dataset [{len(dataset)}] = [{dataset[0].shape, dataset[1].shape, dataset[1].shape}] {dataset[0], dataset[1], dataset[2]}")
-        # logging.critical(f"blocking datasets with: size = {dataset.sizes}, block_size = {self.cfg.tokens_per_sample - 1}, break mode = {self.cfg.sample_break_mode}")
-
         # create continuous blocks of tokens
         dataset = TokenBlockDataset(
             dataset,
@@ -287,15 +275,11 @@ class ProteinBFNLMTask(FairseqTask):
             eos=self.source_dictionary.eos(),
             break_mode=self.cfg.sample_break_mode,
         )
-
-        # logging.critical(f"blocked fasta dataset [{len(dataset)}] = [{dataset[0].shape, dataset[1].shape, dataset[1].shape}] {dataset[0], dataset[1], dataset[2]}")
-
         logger.info("loaded {} blocks from: {}".format(len(dataset), split_path))
 
         # prepend beginning-of-sentence token (<s>, equiv. to [CLS] in BERT)
         return PrependTokenDataset(dataset, self.source_dictionary.bos())
 
-    # yupei: load our bfn dataset
     def load_dataset(self, split, epoch=1, combine=False, **kwargs):
         """Load a given dataset split.
         Args:
@@ -318,8 +302,6 @@ class ProteinBFNLMTask(FairseqTask):
             else None
         )
 
-        # logging.critical(f"dataset before masking {len(dataset)} = {dataset[0], dataset[1], dataset[2]}")
-
         src_dataset = MaskTokensDataset.apply_mask(
             dataset,
             self.source_dictionary,
@@ -334,10 +316,7 @@ class ProteinBFNLMTask(FairseqTask):
             mask_multiple_length=self.cfg.mask_multiple_length,
             mask_stdev=self.cfg.mask_stdev,
             skip_masking=self.cfg.skip_masking,
-            epoch_id=epoch
         )
-
-        # logging.critical(f"dataset after masked {len(dataset)} = {src_dataset[0], src_dataset[1], src_dataset[2]}")
 
         with data_utils.numpy_seed(
             self.cfg.seed, epoch, hash("load_dataset") % 10**6
@@ -348,8 +327,6 @@ class ProteinBFNLMTask(FairseqTask):
             src_dataset,
             pad_idx=self.source_dictionary.pad(),
         )
-
-        # logging.critical(f"dataset after right padded {len(dataset)} = {src_dataset[0], src_dataset[1], src_dataset[2]}")
 
         if self.cfg.d2v2_multi:
             dataset = self._d2v2_multi_dataset(src_dataset)
@@ -384,7 +361,6 @@ class ProteinBFNLMTask(FairseqTask):
                 mode=self.bf_type,
                 steps=self.sample_steps,
                 c=self.c,
-                use_profile=True
             ),
             "t": RightPadDataset(time_dataset, pad_idx=0),
             "src_lengths": NumelDataset(src_dataset, reduce=False),
@@ -464,7 +440,6 @@ class ProteinBFNLMTask(FairseqTask):
                         mode=self.bf_type,
                         steps=self.sample_steps,
                         c=self.c,
-                        use_profile=True
                     ),
                     "t": RightPadDataset(time_dataset, pad_idx=0),
                     "src_lengths": NumelDataset(src_dataset, reduce=False),

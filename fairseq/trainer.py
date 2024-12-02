@@ -714,7 +714,6 @@ class Trainer(object):
     ):
         """Return an EpochBatchIterator over the training set for a given epoch."""
         if load_dataset:
-            # yupei: calling load dataset
             logger.info("loading train data for epoch {}".format(epoch))
             self.task.load_dataset(
                 self.cfg.dataset.train_subset,
@@ -782,7 +781,6 @@ class Trainer(object):
 
     def begin_epoch(self, epoch):
         """Called at the beginning of each epoch."""
-
         logger.info("begin training epoch {}".format(epoch))
 
         self.lr_step_begin_epoch(epoch)
@@ -811,9 +809,6 @@ class Trainer(object):
     @metrics.aggregate("train")
     def train_step(self, samples, raise_oom=False):
         """Do forward, backward and parameter update."""
-        # logging.critical(f"trainging start of samples = {samples}")
-
-
         self._set_seed()
         self.model.train()
         self.criterion.train()
@@ -833,9 +828,7 @@ class Trainer(object):
         # forward and backward pass
         logging_outputs, sample_size, ooms = [], 0, 0
         for i, sample in enumerate(samples):  # delayed update loop
-
             sample, is_dummy_batch = self._prepare_sample(sample)
-            # logging.critical(f"at iter {i}, sample = {sample}")
 
             def maybe_no_sync():
                 """
