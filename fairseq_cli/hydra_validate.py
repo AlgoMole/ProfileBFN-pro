@@ -14,13 +14,13 @@ from hydra.core.hydra_config import HydraConfig
 from omegaconf import OmegaConf, open_dict
 import hydra
 
-from fairseq import checkpoint_utils, distributed_utils, utils
-from fairseq.dataclass.configs import FairseqConfig
-from fairseq.dataclass.initialize import add_defaults, hydra_init
-from fairseq.dataclass.utils import omegaconf_no_object_check
-from fairseq.distributed import utils as distributed_utils
-from fairseq.logging import metrics, progress_bar
-from fairseq.utils import reset_logging
+from fairseq_copy import checkpoint_utils, distributed_utils, utils
+from fairseq_copy.dataclass.configs import FairseqConfig
+from fairseq_copy.dataclass.initialize import add_defaults, hydra_init
+from fairseq_copy.dataclass.utils import omegaconf_no_object_check
+from fairseq_copy.distributed import utils as distributed_utils
+from fairseq_copy.logging import metrics, progress_bar
+from fairseq_copy.utils import reset_logging
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",

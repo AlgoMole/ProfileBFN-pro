@@ -11,8 +11,8 @@ import argparse
 import os
 import sys
 
-from fairseq.data import dictionary
-from fairseq.scoring import bleu
+from fairseq_copy.data import dictionary
+from fairseq_copy.scoring import bleu
 
 
 def get_parser():

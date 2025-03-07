@@ -15,13 +15,13 @@ import typing as tp
 from argparse import Namespace
 from itertools import zip_longest
 
-from fairseq import options, tasks, utils
-from fairseq.binarizer import (
+from fairseq_copy import options, tasks, utils
+from fairseq_copy.binarizer import (
     AlignmentDatasetBinarizer,
     FileBinarizer,
     VocabularyDatasetBinarizer,
 )
-from fairseq.data import Dictionary
+from fairseq_copy.data import Dictionary
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",

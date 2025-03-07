@@ -28,18 +28,18 @@ import numpy as np
 import torch
 from omegaconf import DictConfig, OmegaConf
 
-from fairseq import checkpoint_utils, options, quantization_utils, tasks, utils
-from fairseq.data import data_utils, iterators
-from fairseq.data.plasma_utils import PlasmaStore
-from fairseq.dataclass.configs import FairseqConfig
-from fairseq.dataclass.initialize import add_defaults
-from fairseq.dataclass.utils import convert_namespace_to_omegaconf
-from fairseq.distributed import fsdp_enable_wrap, fsdp_wrap
-from fairseq.distributed import utils as distributed_utils
-from fairseq.file_io import PathManager
-from fairseq.logging import meters, metrics, progress_bar
-from fairseq.model_parallel.megatron_trainer import MegatronTrainer
-from fairseq.trainer import Trainer
+from fairseq_copy import checkpoint_utils, options, quantization_utils, tasks, utils
+from fairseq_copy.data import data_utils, iterators
+from fairseq_copy.data.plasma_utils import PlasmaStore
+from fairseq_copy.dataclass.configs import FairseqConfig
+from fairseq_copy.dataclass.initialize import add_defaults
+from fairseq_copy.dataclass.utils import convert_namespace_to_omegaconf
+from fairseq_copy.distributed import fsdp_enable_wrap, fsdp_wrap
+from fairseq_copy.distributed import utils as distributed_utils
+from fairseq_copy.file_io import PathManager
+from fairseq_copy.logging import meters, metrics, progress_bar
+from fairseq_copy.model_parallel.megatron_trainer import MegatronTrainer
+from fairseq_copy.trainer import Trainer
 
 from fairseq_cli.mq_evaluation_client import MQEvaluationClient
 

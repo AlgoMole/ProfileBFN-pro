@@ -18,12 +18,12 @@ from typing import Iterable, List, Optional
 import torch
 from omegaconf import DictConfig
 
-import fairseq
-from fairseq import checkpoint_utils, distributed_utils, options, tasks, utils
-from fairseq.dataclass.utils import convert_namespace_to_omegaconf
-from fairseq.logging import progress_bar
-from fairseq.logging.meters import StopwatchMeter
-from fairseq.sequence_scorer import SequenceScorer
+import fairseq_copy
+from fairseq_copy import checkpoint_utils, distributed_utils, options, tasks, utils
+from fairseq_copy.dataclass.utils import convert_namespace_to_omegaconf
+from fairseq_copy.logging import progress_bar
+from fairseq_copy.logging.meters import StopwatchMeter
+from fairseq_copy.sequence_scorer import SequenceScorer
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
@@ -35,13 +35,13 @@ logger = logging.getLogger("fairseq_cli.eval_lm")
 
 
 def eval_lm(
-    models: List[fairseq.models.FairseqModel],
-    source_dictionary: fairseq.data.Dictionary,
+    models: List[fairseq_copy.models.FairseqModel],
+    source_dictionary: fairseq_copy.data.Dictionary,
     batch_iterator: Iterable,
     post_process: Optional[str] = None,
     output_word_probs: bool = False,
     output_word_stats: bool = False,
-    target_dictionary: Optional[fairseq.data.Dictionary] = None,
+    target_dictionary: Optional[fairseq_copy.data.Dictionary] = None,
     softmax_batch: int = 0,
     remove_bos_token: bool = False,
     device: Optional[torch.device] = None,

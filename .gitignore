@@ -12,3 +12,4 @@ test/CCMPRED
 
 # logs
 wandb
+fairseq_copy

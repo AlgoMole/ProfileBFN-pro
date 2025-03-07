@@ -2,7 +2,20 @@ SHELL := /bin/bash
 
 current_dir :=$(shell pwd)
 
-CKPT_PATH:= /sharefs/gongjj/accounting/gongjj_dev_bfn4prot/bfn_650M_b2m_fromESM_16a100/27ea3bd_18159/checkpoint_31_320000.pt
+# CKPT_PATH:= /sharefs/gongjj/accounting/gongjj_dev_bfn4prot/bfn_650M_b2m_fromESM_16a100/27ea3bd_18159/checkpoint_31_320000.pt
+
+CKPT_PATH:= /sharefs/yupei/ProfileBFN-pro/checkpoints/ProfileBFN/ProfileBFN_650M/checkpoint_best.pt
+
+sample_sequence:
+	${eval DATADIR:=./data/CAMEO}
+	$(eval OUT_DIR:=./results/$@)
+	rm -rf ${OUT_DIR}
+	cp -r ${DATADIR} ${OUT_DIR}
+	for p in `ls ${OUT_DIR}/*.fasta`; do \
+		pp=$${p:0:-6}; \
+		python seqgen.py --ckpt-path ${CKPT_PATH} --num-seqs 10 --batch-size 5 \
+				--input-fasta $${pp}.fasta --output-a3m $${pp}.a3m.gen; \
+	done
 
 sample_profile:
 	${eval DATADIR:=./data/CAMEO}

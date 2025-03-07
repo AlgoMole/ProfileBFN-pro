@@ -9,14 +9,9 @@ import torch.nn.functional as F
 
 
 
-from fairseq.models.roberta.bfn_roberta import BFNRobertaEncoder
-from fairseq.data import Dictionary
-from fairseq.data.bfn4seq_dataset import (
-    _tensor_discreteBayesianFlow_mbcltbf,
-    sampling_tensor_discreteBayesianFlow_mbcltbf,
-    _np_discreteBayesianFlow_mbcltbf,
-    _np_discreteBayesianFlow_mnbf,
-)
+from fairseq_copy.models.roberta.bfn_roberta import BFNRobertaEncoder
+from fairseq_copy.data import Dictionary
+from fairseq_copy.data.bfn4seq_dataset import sampling_tensor_discreteBayesianFlow_mbcltbf
 
 
 

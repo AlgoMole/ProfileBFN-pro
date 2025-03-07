@@ -19,10 +19,10 @@ import numpy as np
 import torch
 from omegaconf import DictConfig
 
-from fairseq import checkpoint_utils, options, scoring, tasks, utils
-from fairseq.dataclass.utils import convert_namespace_to_omegaconf
-from fairseq.logging import progress_bar
-from fairseq.logging.meters import StopwatchMeter, TimeMeter
+from fairseq_copy import checkpoint_utils, options, scoring, tasks, utils
+from fairseq_copy.dataclass.utils import convert_namespace_to_omegaconf
+from fairseq_copy.logging import progress_bar
+from fairseq_copy.logging.meters import StopwatchMeter, TimeMeter
 
 
 def main(cfg: DictConfig):

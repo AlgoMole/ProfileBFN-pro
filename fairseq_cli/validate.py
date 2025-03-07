@@ -13,10 +13,10 @@ from itertools import chain
 import torch
 from omegaconf import DictConfig
 
-from fairseq import checkpoint_utils, distributed_utils, options, utils
-from fairseq.dataclass.utils import convert_namespace_to_omegaconf
-from fairseq.logging import metrics, progress_bar
-from fairseq.utils import reset_logging
+from fairseq_copy import checkpoint_utils, distributed_utils, options, utils
+from fairseq_copy.dataclass.utils import convert_namespace_to_omegaconf
+from fairseq_copy.logging import metrics, progress_bar
+from fairseq_copy.utils import reset_logging
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
