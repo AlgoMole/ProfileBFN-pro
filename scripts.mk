@@ -2,8 +2,6 @@ SHELL := /bin/bash
 
 current_dir :=$(shell pwd)
 
-# CKPT_PATH:= /sharefs/gongjj/accounting/gongjj_dev_bfn4prot/bfn_650M_b2m_fromESM_16a100/27ea3bd_18159/checkpoint_31_320000.pt
-
 CKPT_PATH:= /sharefs/yupei/ProfileBFN-pro/checkpoints/ProfileBFN/ProfileBFN_650M/checkpoint_best.pt
 
 sample_sequence:
