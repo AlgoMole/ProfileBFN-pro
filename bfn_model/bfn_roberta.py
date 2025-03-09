@@ -16,7 +16,7 @@ import numpy as np
 
 DEFAULT_MIN_PARAMS_TO_WRAP = int(1e8)
 
-from fairseq import utils
+# from fairseq import utils
 from fairseq.models import (
     FairseqEncoder,
     FairseqEncoderModel,
