@@ -27,6 +27,23 @@ def load_sequence_from_fasta(fasta_path):
     assert len(lines) == 2
     return lines[1].strip()
 
+def check_align(a3m_path):
+    with open(a3m_path, "r") as f:
+        lines = f.readlines()
+    collect = []
+    for l in lines:
+        if l.startswith(">"):
+            continue
+        collect.append(l.strip())
+    collect = [re.sub(r"[a-z]", "", l) for l in collect]
+
+    if( len(set([len(l) for l in collect])) == 1):
+        return 
+    else:
+        print("Find Length Inconsistency, start Aligning sequences: \n")
+        return_code = os.system(f"python tools/align_aa_sequences.py -f {a3m_path} -o {a3m_path}")
+        print(f"Alignment Process Done")
+        return
 
 def profile_from_lists(lsts, dictionary):
     collect = []
@@ -85,6 +102,9 @@ if __name__ == "__main__":
     assert sorted(encoder.state_dict().keys()) == sorted(state_dict.keys())
     encoder.load_state_dict(state_dict)
     encoder.eval()
+
+    check_align(args.input_a3m)
+
     input_seq = build_profile_from_a3m(args.input_a3m, dictionary, prepend_bos=True)
 
 
