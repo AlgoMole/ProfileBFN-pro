@@ -7,12 +7,9 @@ import numpy as np
 import tqdm
 import torch.nn.functional as F
 
-
-
-from fairseq_copy.models.roberta.bfn_roberta import BFNRobertaEncoder
-from fairseq_copy.data import Dictionary
-from fairseq_copy.data.bfn4seq_dataset import sampling_tensor_discreteBayesianFlow_mbcltbf
-
+from bfn_model.bfn_roberta import BFNRobertaEncoder
+from bfn_model.dictionary import Dictionary
+from bfn_model.bflow import sampling_tensor_discreteBayesianFlow_mbcltbf
 
 
 def upgrade_state_dict(state_dict):
