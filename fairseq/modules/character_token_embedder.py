@@ -8,7 +8,7 @@ from typing import List, Tuple
 
 import torch
 import torch.nn.functional as F
-from fairseq.data import Dictionary
+from bfn_model.dictionary import Dictionary
 from torch import nn
 
 
