@@ -26,12 +26,6 @@ For data used as represent learning, please refer to the same [dataset](https://
 ## Checkpoints
 We provide the pretrained checkpoint as [ProfileBFN_150M.ckpt]() and [ProfileBFN_650M.ckpt](). 
 
-### (Optional) Download download [CLEAN]() model for enzyme functional classification
-
-
-### (Optional) Download ESMFold for Lysozyme evaluation
-
-
 
 ## Sampling
 `mkdir ./results` All Generation Results will be placed in such subdir.
@@ -43,7 +37,7 @@ Run `make sample_sequence -f scripts.mk` to sample protein family based on singl
 
 ## Evaluation
 ### Evaluating generated protein family by CCMPRED
-Clone [CCMPRED](https://github.com/jingjing-gong/contact_evaluation) repo in dir `test/ccmpred` and follow instructions as README.md for ccmpred.  
+Clone [CCMPRED](https://github.com/jingjing-gong/contact_evaluation) repo in dir `test/ccmpred` and follow instructions as their README.  
 
 targets are generated sequence under `results/sample_profile` dir after the sampling process
 ```bash
@@ -51,14 +45,6 @@ cd test/ccmpred
 docker build -f docker/Dockerfile -t exp/contact_evaluation .
 CUDA_VISIBLE_DEVICES=4,5,6,7 ./scripts/run_evaluate.sh -i <input_dir> -o <output_dir>
 ```
-
-
-### (Optional) Evaluating generated enzyme family by CLEAN model
-For Accuracy, please follow instructions of CLEAN
-
-
-
-### (Optional) Evaluating generated Lysozyme family by ESMFold
 
 
 ## Citation
