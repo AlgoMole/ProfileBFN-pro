@@ -2,18 +2,13 @@
 Official implementation of ICLR 2025 ["ProfileBFN: Steering Protein Family Design through Profile Bayesian Flow"](https://openreview.net/forum?id=PSiijdQjNU&noteId=sRV2quHqPd).
 
 ## Environment
-Enviroment used are based on pytorch 1.13, follow [website instructions](https://pytorch.org/get-started/previous-versions/) to get accomodated to your cuda devices. Then install following packages:
+The environment is based on PyTorch 1.13. Follow the [official installation instructions](https://pytorch.org/get-started/previous-versions/) to set it up according to your CUDA version. Then, install the following packages:
 
 ```bash
 pip install omegaconf hydra-core bitarray rdkit-pypi scipy lmdb numba scikit-learn
 ```
 
-More detailed enviroment settings are located in env.yaml
-
-### Prerequisite
-
-### Install via Docker
-
+More detailed environment settings are located in env.yaml
 
 
 -----
