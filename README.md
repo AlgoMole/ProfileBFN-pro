@@ -2,7 +2,13 @@
 Official implementation of ICLR 2025 ["ProfileBFN: Steering Protein Family Design through Profile Bayesian Flow"](https://openreview.net/forum?id=PSiijdQjNU&noteId=sRV2quHqPd).
 
 ## Environment
+Enviroment used are based on pytorch 1.13, follow [website instructions](https://pytorch.org/get-started/previous-versions/) to get accomodated to your cuda devices. Then install following packages:
 
+```bash
+pip install omegaconf hydra-core bitarray rdkit-pypi scipy lmdb numba scikit-learn
+```
+
+More detailed enviroment settings are located in env.yaml
 
 ### Prerequisite
 
@@ -33,6 +39,7 @@ We provide the pretrained checkpoint as [ProfileBFN_150M.ckpt]() and [ProfileBFN
 
 
 ## Sampling
+`mkdir ./results` All Generation Results will be placed in such subdir.
 
 Run `make sample_profile -f scripts.mk` to sample protein family based MSA. Note that inputs with inconsistent lengths would be automatically aligned.
 
