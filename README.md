@@ -24,7 +24,7 @@ For data used as represent learning, please refer to the same [dataset](https://
 
 
 ## Checkpoints
-We provide the pretrained checkpoint as [ProfileBFN_150M.ckpt]() and [ProfileBFN_650M.ckpt](). 
+We provide the pretrained checkpoint as [ProfileBFN_150M.ckpt](https://huggingface.co/hhhhhhh789/ProfileBFN_150M) and [ProfileBFN_650M.ckpt](https://huggingface.co/hhhhhhh789/ProfileBFN_650M), please download all files and set the CKPT_PATH to the corresponding directory. 
 
 
 ## Sampling
