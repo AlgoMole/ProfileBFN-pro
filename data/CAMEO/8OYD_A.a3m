@@ -1,0 +1,612 @@
+>2024-06-05_8OYD_A
+MTDKTGREHLSVYAVVVIASVVGFCLLVMLFLLKLARHSKFGMKG
+>UniRef100_A0A8C3UXP1 Receptor protein-tyrosine kinase n=1 Tax=Catharus ustulatus TaxID=91951 RepID=A0A8C3UXP1_CATUS
+-SNKENENNITVYIMVGSATLVCTGLVITLIILKFGKHSKFGMKG
+>UniRef100_A0A8J6G688 BDNF/NT-3 growth factors receptor n=1 Tax=Microtus ochrogaster TaxID=79684 RepID=A0A8J6G688_MICOH
+-ADQNNRERLSVYAVVVIASVVGFCLLVMLLLLKLARHSKFGMKG
+>UniRef100_H3A059 Tyrosine-protein kinase receptor n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=H3A059_LATCH
+-YEKANEDSIAVYVVVGIAVLVCTGLVIMLIVLKFGRHSKFGIKG
+>UniRef100_UPI0008549C26 BDNF/NT-3 growth factors receptor isoform X1 n=1 Tax=Nanorana parkeri TaxID=125878 RepID=UPI0008549C26
+-SNEGSEDSITVYVVVGIAALVCTGLVIMLVILKFGRHSKFGLKG
+>UniRef100_UPI001CF942B8 BDNF/NT-3 growth factors receptor isoform X1 n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CF942B8
+-SKTAKEDSVSVYVVVGIAAIVCTGLVIMLIILKFGKHSKFGIKG
+>UniRef100_A0A8C1BK14 Neurotrophic tyrosine kinase, receptor, type 2a n=1 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1BK14_CYPCA
+---------VTVNVTVTVSEKLLCFLFYVYPSESVTDPLYYGESL
+>UniRef100_UPI00112E507E BDNF/NT-3 growth factors receptor-like isoform X1 n=1 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI00112E507E
+-FPEGNEDSVTVYVVVGIAALVCTGLVIMLLILKFGRHSKFGIKG
+>UniRef100_UPI001CF79406 BDNF/NT-3 growth factors receptor isoform X3 n=1 Tax=Varanus komodoensis TaxID=61221 RepID=UPI001CF79406
+-SNKDNEDSITVYVVVGIAALVCTGLVIMLIILKFGKHSKFGMKG
+>UniRef100_V9KMQ8 BDNF/NT-3 growth factors receptor n=1 Tax=Callorhinchus milii TaxID=7868 RepID=V9KMQ8_CALMI
+-VTEKKEDSIAVYVVVGTTALVFTGLILVLIIFKFGKHAKFGMKgr-
+>tr|H2TI00|H2TI00_TAKRU Tyrosine-protein kinase receptor OS=Takifugu rubripes GN=ntrk2 PE=3 SV=1
+--ASASFLVVQLYVVVGIAAVAFTGFLLMLVILKFGGNSKFGIK-
+>tr|M3ZRU1|M3ZRU1_XIPMA Tyrosine-protein kinase receptor OS=Xiphophorus maculatus PE=3 SV=1
+--IISSEYYFQVYVVVGIAGVALTGCVLMVIILKYGRNSNFGIKG
+>tr|A0A0R4ILA2|A0A0R4ILA2_DANRE Tyrosine-protein kinase receptor OS=Danio rerio GN=ntrk2b PE=3 SV=1
+--IPPLEDRVAVYIVVGIAGVALTGCILMLVFLKYGRSSKFGMKG
+>tr|I3JKZ4|I3JKZ4_ORENI Tyrosine-protein kinase receptor OS=Oreochromis niloticus GN=LOC100697438 PE=3 SV=1
+--PTSCCKPLKVYVVVGIAGVALIGCVLMVIILKYGRNSKFGIKG
+>tr|A0A1S3KTS0|A0A1S3KTS0_SALSA Tyrosine-protein kinase receptor OS=Salmo salar GN=LOC106562076 PE=3 SV=1
+--LPPIEDSVAVYIVVGIAGVALIGCVLMVIILKYGRNSKFGMKG
+>tr|A0A2D0R2D8|A0A2D0R2D8_ICTPU Tyrosine-protein kinase receptor OS=Ictalurus punctatus GN=ntrk2 PE=3 SV=1
+--LEPPEDRVAVYVVVGIAVVTFTGFVLMLVVLKFGRNSKFGIK-
+>tr|A0A1A6HJD7|A0A1A6HJD7_NEOLE Uncharacterized protein (Fragment) OS=Neotoma lepida GN=A6R68_19854 PE=4 SV=1
+--IAKATDLRTVYAVVVIASVVGFCLLVMLLLLKLARHSKFGM--
+>tr|A0A060WNZ5|A0A060WNZ5_ONCMY Uncharacterized protein OS=Oncorhynchus mykiss GN=GSONMT00075201001 PE=4 SV=1
+----TRRQSCCICGRRdCSSSLHGFSID----------AGHLEIRG
+>tr|F2Q754|F2Q754_APLCA Tyrosine-protein kinase receptor OS=Aplysia californica PE=2 SV=1
+---KSFIN-SSQIIVITSTCvaLLF-VCA-VVIFcIIRRRKSRVLARG
+>tr|T1KAV3|T1KAV3_TETUR Uncharacterized protein OS=Tetranychus urticae GN=107362661 PE=3 SV=2
+----NVYSVRKIVILIGSLGgaLILSSIIILSII--HRKNDSFICLT
+>tr|A0A165V919|A0A165V919_PLADU Tyrosine-protein kinase receptor OS=Platynereis dumerilii PE=2 SV=1
+--L-RRSDRKKTFIIAAAVAsgLTLtLGLSLLFACcVRRYKRLKSDVR-
+>tr|K1RM21|K1RM21_CRAGI Tyrosine-protein kinase receptor OS=Crassostrea gigas GN=CGI_10026689 PE=3 SV=1
+--EQEPPATTSVYVAIGISVFVF-VAVLFVIVSLVVRHYRQKITR
+>UniRef100_A0A6I9Z0P0 BDNF/NT-3 growth factors receptor-like n=1 Tax=Thamnophis sirtalis TaxID=35019 RepID=A0A6I9Z0P0_9SAUR
+-----EGKTITLYCEATGSPSPTIAWVFNNIVSKHE---------
+>UniRef100_A0A7J7VS20 Neurotrophic receptor tyrosine kinase 2 n=1 Tax=Rhinolophus ferrumequinum TaxID=59479 RepID=A0A7J7VS20_RHIFE
+-----EGKSITLSCSVAGDPVPNLYWDVGNLVSKHMVRVVFGSVL
+>UniRef100_A0A2I0TR21 Bdnf nt-3 growth factors receptor n=1 Tax=Limosa lapponica baueri TaxID=1758121 RepID=A0A2I0TR21_LIMLA
+--NKENEDSITVYIVVGSATLACTGLVIMLIILKFGRHSNFGMKG
+>tr|A0A091PCI9|A0A091PCI9_LEPDC NT-3 growth factor receptor (Fragment) OS=Leptosomus discolor GN=N330_03187 PE=4 SV=1
+---DPKTFSFQVSIAVGLAAFACVLLvVLFIMINKYGRRSKFGMKg-
+>tr|H2LKP1|H2LKP1_ORYLA Tyrosine-protein kinase receptor OS=Oryzias latipes PE=3 SV=1
+-----AVSHLSVYVVVGIAAVAFtG--fLLMLVILKFGGNSKFGIKvfsfyfcfsfanmkdrkgqS
+>tr|A0A060WQ41|A0A060WQ41_ONCMY Tyrosine-protein kinase receptor OS=Oncorhynchus mykiss GN=GSONMT00061677001 PE=3 SV=1
+-----------lcaffakTKTCLPFHLFlsffhlhiflkhlFSfLLFislfsFTFSLILNSTPLAFSPLSG
+>tr|G3NXP4|G3NXP4_GASAC Tyrosine-protein kinase receptor OS=Gasterosteus aculeatus PE=3 SV=1
+---HFHPHQLTVYVVVGIAAVAFtG--fLLMLVILKFGGNSKFGIKG
+>tr|I3J881|I3J881_ORENI Tyrosine-protein kinase receptor OS=Oreochromis niloticus GN=LOC100703725 PE=3 SV=1
+---IPEEDTFGVSIAVGLAGFALsLMLvVLFLLINKYGGRSKFGMKG
+>tr|I3KCM7|I3KCM7_ORENI Tyrosine-protein kinase receptor OS=Oreochromis niloticus GN=ntrk2 PE=3 SV=1
+---STGHKNLQVYVVVGIAAVAFtG--fLLMLVILKFGGNSKFGIKG
+>tr|W5M2W5|W5M2W5_LEPOC Tyrosine-protein kinase receptor OS=Lepisosteus oculatus PE=3 SV=1
+---EVNEDSVAVYVVVGIAAVAFtG--fVLMLIILKFGRNSKFGIKG
+>tr|H2RMV9|H2RMV9_TAKRU Tyrosine-protein kinase receptor OS=Takifugu rubripes GN=LOC101078202 PE=3 SV=1
+---PPLDDSVAVYVVVGIAGIALtG--cVLMVIILKYGRNSKFGIKG
+>tr|W5KGX6|W5KGX6_ASTMX Tyrosine-protein kinase receptor OS=Astyanax mexicanus PE=3 SV=1
+---PPQEDKVAVYVVVGIAGVALtG--cILMLIFLKYGRSSKFGLKG
+>tr|A0A2D0Q9G7|A0A2D0Q9G7_ICTPU Tyrosine-protein kinase receptor OS=Ictalurus punctatus GN=LOC108259739 PE=3 SV=1
+---RSQEGKVAVYAVVGIAGVALtG--cVLMLIFLKYGRSSKFGLKG
+>tr|A0A1L8HPC8|A0A1L8HPC8_XENLA Tyrosine-protein kinase receptor OS=Xenopus laevis GN=XELAEV_18010154mg PE=3 SV=1
+---GGNEDSITVYVVVGIAALVCtG--lVIMLIILKFGRHSKFGLKG
+>tr|A0A218V905|A0A218V905_9PASE Tyrosine-protein kinase receptor OS=Lonchura striata domestica GN=NTRK2 PE=3 SV=1
+---KENEDSITVYVVVGIAALVCtG--lVITLIILKFGRHSKFGMKvhgevkgvglvdqiwlslqdcdneeqvmvavnsdvhnnstasdnnrlG
+>tr|A0A1S3LT89|A0A1S3LT89_SALSA Tyrosine-protein kinase receptor OS=Salmo salar GN=LOC106568346 PE=3 SV=1
+---PPIDDSVAVYVVVGIAGVALiV--cVLMVIILKYGRNSKFGMKgS
+>tr|A0A1W5AQ35|A0A1W5AQ35_9TELE Tyrosine-protein kinase receptor OS=Scleropages formosus GN=ntrk2 PE=3 SV=1
+---PENEDSVAVYVVVGIAAVAFtG--fILMLVLLKFGRNSKFGIKG
+>tr|W5KVL0|W5KVL0_ASTMX Tyrosine-protein kinase receptor OS=Astyanax mexicanus PE=3 SV=1
+---GPPQDRVAVYVVVGIAAVTFaG--fVLMLVVLKFGRNSKFGIKG
+>tr|H2MWU2|H2MWU2_ORYLA Tyrosine-protein kinase receptor OS=Oryzias latipes PE=3 SV=1
+---EPQEDSMRVSVAVGVAGFACaVLTVFFLL-IKYRRRSKLTMKG
+>tr|V4A7A9|V4A7A9_LOTGI Tyrosine-protein kinase receptor (Fragment) OS=Lottia gigantea GN=LOTGIDRAFT_120502 PE=3 SV=1
+-----------dinivWPIAIGISVViITM--vIAVVIFIKRSKRNSSasstrg----
+>tr|S7PUE8|S7PUE8_MYOBR Tyrosine-protein kinase receptor OS=Myotis brandtii GN=D623_10013164 PE=3 SV=1
+-----------wsaqwwqQSPCSGFQHAssffslkrpleprRCgS-VvelqpVNQEVTVQFPVRAPARVAG
+>tr|A0A0P6BZL9|A0A0P6BZL9_9CRUS Tyrosine-protein kinase receptor OS=Daphnia magna PE=3 SV=1
+---SG--EDIGehqsht--IRIAVTTItFIMGLtIISLLIIWMKIRLCKkiplpdhemGQHskmf-
+>tr|A0A210PFI5|A0A210PFI5_MIZYE Tyrosine-protein kinase receptor OS=Mizuhopecten yessoensis GN=KP79_PYT14993 PE=3 SV=1
+-----------dtliIYIGTGSALLaVSV--lVVIVVFIIRNFRRKLarqttetqfASNgsr-
+>tr|Q52V40|Q52V40_BRAFL Tyrosine-protein kinase receptor OS=Branchiostoma floridae GN=AmphiTrk PE=2 SV=1
+---Y-------trietYIAVAVSSVVfIVV-----AIVLYCMRSRKIsrrecNINgsa-
+>tr|A0A2G8LPL7|A0A2G8LPL7_STIJA Putative NT-3 growth factor receptor-like OS=Stichopus japonicus GN=BSL78_00896 PE=4 SV=1
+---E-------fpvyiYPVVVSCAVLlPCIIIiLF-VVIRRRQKRDVHnrvryrdVADgsd-
+>tr|A0A1S3IZI8|A0A1S3IZI8_LINUN BDNF/NT-3 growth factors receptor-like OS=Lingula unguis GN=LOC106168786 PE=4 SV=1
+---RG--DTINstagtsvlqpdlayvHTDRISVTIGaVCVGVvLFLLGLVWAVRKANMkctnmemnesqlSSTgsr-
+>tr|Q4SEJ9|Q4SEJ9_TETNG Tyrosine-protein kinase receptor (Fragment) OS=Tetraodon nigroviridis GN=GSTENG00019520001 PE=3 SV=1
+-----------vflVFVAVGLALFACtFLLVMILIINKCGQHPKFGLHR
+>tr|A0A1A7ZNV0|A0A1A7ZNV0_NOTFU Tyrosine-protein kinase receptor OS=Nothobranchius furzeri GN=NTRK1 PE=3 SV=1
+-----------vfvVSVAVGLAVFACtFLLIVILVINKCGQKTKFGIHR
+>tr|B7QAX3|B7QAX3_IXOSC Tyrosine-protein kinase receptor OS=Ixodes scapularis GN=8038489 PE=3 SV=1
+---D-------vdiqqIPIIVTLSVLvVLVSVvGALVALRWCQFRQE-nyAADgtrfc-
+>tr|A0A1Z5L0B9|A0A1Z5L0B9_ORNMO Tyrosine-protein kinase receptor (Fragment) OS=Ornithodoros moubata PE=3 SV=1
+---E-------kendqLPVILSCTFLvVLVAVvSVVVVLRWCQFRQD-yaAENstsff-
+>tr|A0A1E1X996|A0A1E1X996_9ACAR Tyrosine-protein kinase receptor (Fragment) OS=Amblyomma aureolatum PE=2 SV=1
+---D-------aeqhqLPMIVALSVLlVLLTAgGALVTLRWCQFRQ--hyAAEgtpfs-
+>UniRef100_A0A6F9BQU2 Ig-like domain-containing protein n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9BQU2_9TELE
+--IRTEQETFGVLIAVGLAGFPSVLLiLLFIVINKYGRCNKFGMKV
+>UniRef100_S4RFX7 Ig-like domain-containing protein n=1 Tax=Petromyzon marinus TaxID=7757 RepID=S4RFX7_PETMA
+--HPPPSPLYXAYVAVGVAAFACAMLtLLCVFSSKYARRSKFNMQG
+>UniRef100_UPI001130FC15 NT-3 growth factor receptor-like n=1 Tax=Salmo trutta TaxID=8032 RepID=UPI001130FC15
+--SRPEEETFGVSIAVGLAGFTSVLLiVLFILINKYVRRSKFGLKV
+>UniRef100_A0A8C4ERB8 Neurotrophic receptor tyrosine kinase 3 n=1 Tax=Dicentrarchus labrax TaxID=13489 RepID=A0A8C4ERB8_DICLA
+--PKPEEETFGVSIAVGLAGFACVMLlVLFLLINKYGPRSKFGMKG
+>UniRef100_A0A8C7KK94 Neurotrophic tyrosine kinase, receptor, type 3b n=1 Tax=Oncorhynchus kisutch TaxID=8019 RepID=A0A8C7KK94_ONCKI
+--IRPEEETFGVkiSMCCGSAGLRLHNCkALYGYILIDLLNFVFLSKG
+>UniRef100_UPI000D630E3D NT-3 growth factor receptor-like n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=UPI000D630E3D
+--EKTEEDTTGISIAVGLAGFACVMLvVLFLLINKYGRRSKFGMKG
+>UniRef100_A0A6P6NPT3 NT-3 growth factor receptor-like n=1 Tax=Carassius auratus TaxID=7957 RepID=A0A6P6NPT3_CARAU
+MTQRPEEDTFGVSIAVGLAGFACVLLlVMFVLINKYGRRSKFGMKG
+>UniRef100_A0A6P6P7X9 NT-3 growth factor receptor-like n=1 Tax=Carassius auratus TaxID=7957 RepID=A0A6P6P7X9_CARAU
+MTHRPEEDTFGQYpddlywpqspalvhfgdpwptvsiMRVGLAGFALRYSvLAQYYVCANATNMARALKR
+>UniRef100_H3BCE1 LRRCT domain-containing protein n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=H3BCE1_LATCH
+LTQKPEEDAFGVSIAVGLAAFACVLLvVLFIIINKYGRRSKFGMK-
+>UniRef100_UPI001561A9CB NT-3 growth factor receptor-like n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=UPI001561A9CB
+VTHKPEEDTFGVSIAVGLAGFACVLLvVLFILINKYGRRSKFGMK-
+>UniRef100_A0A3Q4BKS0 Tyrosine-protein kinase receptor n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q4BKS0_MOLML
+---THPLHLFQVSIAVGLAGFACVLLlVLFVLINKYGRRSKFGMKG
+>UniRef100_A0A1S3PWX8 NT-3 growth factor receptor-like n=1 Tax=Salmo salar TaxID=8030 RepID=A0A1S3PWX8_SALSA
+--NRPEEETFGVWIAVGLAGFTSVLLiVLFILINKYGRRNKFGLKG
+>UniRef100_A0A6P5DKE5 NT-3 growth factor receptor-like n=1 Tax=Bos indicus TaxID=9915 RepID=A0A6P5DKE5_BOSIN
+--SikgfrlmegwgaiwQPEPPSWALPPPpLSLPGAAARESnLVYFIPLERGQTVAI----
+>UniRef100_A0A165V919 Tyrosine-protein kinase receptor n=1 Tax=Platynereis dumerilii TaxID=6359 RepID=A0A165V919_PLADU
+--RSDRKKTFIIAAA-VASGLTlTLGLsLLFACCVRRYKRLKSDVR-
+>UniRef100_A0A1A8USA5 Tyrosine-protein kinase receptor (Fragment) n=3 Tax=Nothobranchius TaxID=28779 RepID=A0A1A8USA5_NOTFU
+--PKPQEDAFGVFIAVGLATFACVILvILFLLINKYGRRSKFNIKG
+>UniRef100_A0A1D1UXD6 Receptor protein-tyrosine kinase n=1 Tax=Ramazzottius varieornatus TaxID=947166 RepID=A0A1D1UXD6_RAMVA
+--SDLAPSHVG-AIV-GaaIVVLL-LSAaLLFLFVKRYRHKQQLNRsPH
+>UniRef100_A0A1W0X8L6 Receptor protein-tyrosine kinase n=1 Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0X8L6_HYPDU
+--PALTSTHVG-IIA-GsiLVTII-LLTaIIFLLLKRYRRKQQSSNsQH
+>UniRef100_A0A2I4CX80 Tyrosine-protein kinase receptor n=1 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4CX80_9TELE
+--KEDPLGLFGIHMAVGLAGVAGVILiLV-VLINKHVRRSKFSIKS
+>UniRef100_A0A2U9BUD5 Tyrosine-protein kinase receptor n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A2U9BUD5_SCOMX
+--QVQRQIMIMVSITVGLAGFVCVMLvVLFLLINKYGRHSKFGMKG
+>UniRef100_A0A3B3SCX2 Tyrosine-protein kinase receptor n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3SCX2_9TELE
+--SEPTDS-VAVYVVVGVAAVA-FTGfILLLVLLKFGRNSKFGMKA
+>UniRef100_A0A3B4C7B3 Tyrosine-protein kinase receptor n=1 Tax=Pygocentrus nattereri TaxID=42514 RepID=A0A3B4C7B3_PYGNA
+--NRPEEDSFGMSIAVGLAGFGCVFLiVMFVLINKYGRRNKFGMKG
+>UniRef100_A0A3P8YLQ3 Tyrosine-protein kinase receptor n=1 Tax=Esox lucius TaxID=8010 RepID=A0A3P8YLQ3_ESOLU
+--NRTEEDAFGVSIAVGLAGFACILLiVLFFLINKYGRRNKFGMKG
+>UniRef100_A0A3P9I810 Tyrosine-protein kinase receptor n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9I810_ORYLA
+--LMGTFPVFQVTIAVGLAGFACILLlVLFVLINKYGRRSKFGMKG
+>UniRef100_A0A3P9NID4 Tyrosine-protein kinase receptor n=1 Tax=Poecilia reticulata TaxID=8081 RepID=A0A3P9NID4_POERE
+--HKPLEDPFGVSMAVGLAVFACVILvVLFVLINKYGRRSKFIIKG
+>UniRef100_A0A4D5S854 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Ixodes scapularis TaxID=6945 RepID=A0A4D5S854_IXOSC
+--REPYVDvDII-PIIVTLSVLVVLVSvVGALVALRWCqfRQENYAADG
+>UniRef100_A0A5A9PPJ4 Tyrosine-protein kinase receptor n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9PPJ4_9TELE
+--KRPEEDSFGMSIAVLLAGFGCVFLiAIFVLINKYSRRNKFGMKG
+>UniRef100_A0A665VKV3 Tyrosine-protein kinase receptor n=1 Tax=Echeneis naucrates TaxID=173247 RepID=A0A665VKV3_ECHNA
+--HHGELL-LQVTMAVCLAVFACVMLvVLFFFINKYGRHSKFGMKG
+>UniRef100_A0A671XQZ0 Tyrosine-protein kinase receptor n=1 Tax=Sparus aurata TaxID=8175 RepID=A0A671XQZ0_SPAAU
+--HKPEEDTFGISIAVGLAGFACLMLvVLFLLLNKYGRHSKFGMKG
+>UniRef100_A0A672JD35 Tyrosine-protein kinase receptor n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672JD35_SALFA
+--ICCFPPVLvQVSTAVGLAGFACVMLvVLSLIISKYGRRSKFGMKG
+>UniRef100_A0A673WFX7 Tyrosine-protein kinase receptor n=1 Tax=Salmo trutta TaxID=8032 RepID=A0A673WFX7_SALTR
+--TKPCLVLLQVSIAVGLAGFACVLLvVLFVLINKYGRRSKFGMKG
+>UniRef100_A0A674ME81 Receptor protein-tyrosine kinase n=2 Tax=Takifugu TaxID=31032 RepID=A0A674ME81_TAKRU
+--GRTHEDTFGVSIAVGLAGFACILLlVLFVLINKYGRRSKFGMKG
+>UniRef100_A0A6P7MNA2 Tyrosine-protein kinase receptor n=1 Tax=Betta splendens TaxID=158456 RepID=A0A6P7MNA2_BETSP
+--HRPEEDNFGVSIAVGLAGFACVMLvVLFLLLNKYGRRSKFGMKG
+>UniRef100_A0A834F065 Tyrosine-protein kinase receptor n=1 Tax=Oryzias melastigma TaxID=30732 RepID=A0A834F065_ORYME
+--SPERVSDLQVSVAVGVAGFA-CVMlTVFFLLIKYRRRSKFSMKG
+>UniRef100_A0A8C4NG64 Tyrosine-protein kinase receptor n=1 Tax=Eptatretus burgeri TaxID=7764 RepID=A0A8C4NG64_EPTBU
+--EKGSEQAFGVYIAVGVAAFVCALLaILLVLINRYNr-RTKFGIKG
+>UniRef100_A0A8C4QVJ9 Tyrosine-protein kinase receptor n=1 Tax=Eptatretus burgeri TaxID=7764 RepID=A0A8C4QVJ9_EPTBU
+--PDALRTKYGVYLAVTIAATVCVVLaAMIILINKYG-RSKFSLKG
+>UniRef100_A0A8C5FVA5 Tyrosine-protein kinase receptor n=1 Tax=Gadus morhua TaxID=8049 RepID=A0A8C5FVA5_GADMO
+----PEEETFGVTVAVCLAGSAGIFFlILFLLINKYGRRSKLGMKG
+>UniRef100_A0A8C9SH53 Tyrosine-protein kinase receptor n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A8C9SH53_SCLFO
+--LEPADG-MAVYVIVGIAALA-SIGfILLLILLKFGRNSKFGMKG
+>UniRef100_A0A8C9WT30 Tyrosine-protein kinase receptor n=3 Tax=Osteoglossocephalai TaxID=1489341 RepID=A0A8C9WT30_SCLFO
+--RRSDEDTFGVTIAVGLAGFACVLLvLLFVLINKYGRRSKFGMKG
+>UniRef100_A0A8J1USZ7 Ofus.G181000 protein n=1 Tax=Owenia fusiformis TaxID=6347 RepID=A0A8J1USZ7_OWEFU
+--NTPTRMsiTDiPVPVSnpssqlqspkdeivqIAIPVALCVLVlFCIVAAIIVFrHLRRKKNG-
+>UniRef100_C3ZA18 Tyrosine-protein kinase receptor n=1 Tax=Branchiostoma floridae TaxID=7739 RepID=C3ZA18_BRAFL
+--NVPENQttTYtRIETYIAVAVSSVVFIvVAIVLYCMRSrKISRRECN-
+>UniRef100_R7UYY3 Tyrosine-protein kinase receptor n=1 Tax=Capitella teleta TaxID=283909 RepID=R7UYY3_CAPTE
+-------NSTHYPSR-YITSFTsTTFLtVAFQLISTRSREIKALIE-
+>UniRef100_T1KAV3 Receptor protein-tyrosine kinase n=1 Tax=Tetranychus urticae TaxID=32264 RepID=T1KAV3_TETUR
+--NRNSTDnVYSvrkIVILIGsLGGALILSSiIILSIIHRKN-------DS
+>UniRef100_UPI0003F05CB8 LOW QUALITY PROTEIN: NT-3 growth factor receptor-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 RepID=UPI0003F05CB8
+--PGPTKDvtVYvAVVVSVMITMFVVAAMiICGVRYFRRKrRRPTSAING
+>UniRef100_UPI00094E9E0B NT-3 growth factor receptor-like n=1 Tax=Hippocampus comes TaxID=109280 RepID=UPI00094E9E0B
+--HNPRKDILGVYIAVGLAGFACVILvIIFLLINKCGQHSKFRMKG
+>UniRef100_UPI000BA80F9C BDNF/NT-3 growth factors receptor-like n=1 Tax=Limulus polyphemus TaxID=6850 RepID=UPI000BA80F9C
+--DSKAGAiYSYlhqsshqpkyntchhgitnckceLPLSLTITTVSIILVlVGTVCFIQRRkrRMH-YDEDR
+>UniRef100_UPI000BF9B010 high affinity nerve growth factor receptor-like n=1 Tax=Varroa jacobsoni TaxID=62625 RepID=UPI000BF9B010
+--KDEPMSgDGGFSWAWPgVAAGLVLLTiATLLAALRWRqsKRASRSHLH
+>UniRef100_UPI000CD6287F NT-3 growth factor receptor-like isoform X2 n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=UPI000CD6287F
+--PRPEEDTFGVSIAVGLAGFVCLVLvILFILINKYGRRSKFGMKG
+>UniRef100_UPI0010547E54 NT-3 growth factor receptor-like isoform X2 n=1 Tax=Gouania willdenowi TaxID=441366 RepID=UPI0010547E54
+--RKQIEDTFGVSIAVGLGGFACLMLlALFLLVNKYGRRSKFGIKG
+>UniRef100_UPI0010A3A7C7 LOW QUALITY PROTEIN: NT-3 growth factor receptor-like n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A3A7C7
+--HPPEEDTFGVSIAVGLAGFACLLLvIMFLLLNKYGRHSKFGMKG
+>UniRef100_UPI0010BD1EFE high affinity nerve growth factor receptor-like n=1 Tax=Galendromus occidentalis TaxID=34638 RepID=UPI0010BD1EFE
+--KDSP------SWLWAlgIATGGLVLVlTSLLGFKFYHmrRDGARSGYA
+>UniRef100_UPI00117CE4B0 NT-3 growth factor receptor-like n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=UPI00117CE4B0
+--HPPEEETLGVSIAVSLASFALVLLvILFLLINKYGRRSKFMK-G
+>UniRef100_UPI001401BB81 high affinity nerve growth factor receptor isoform X1 n=1 Tax=Daphnia magna TaxID=35525 RepID=UPI001401BB81
+--NVKSKEppSSgEdirehqsHTIRIAVTTITFIMGlTIISLLIIWM-KIRLCKKiP
+>UniRef100_UPI001402CD7C BDNF/NT-3 growth factors receptor isoform X2 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001402CD7C
+--SRVGEDSFAVYIAVSIAAFVCILLaSLLVLINKYNl-RSKFGMKG
+>UniRef100_UPI001403A520 BDNF/NT-3 growth factors receptor-like n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001403A520
+--GPPAVTgrvvdSVAAYVAVGVAAFACAMLtLLCVFSSKYARRSKFNMQG
+>UniRef100_UPI001403B7DB BDNF/NT-3 growth factors receptor isoform X2 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001403B7DB
+--EEPEGEAYGVYLAVSIAAFACIVLaGMIVLINKYG-RSKFNMKG
+>UniRef100_UPI00145B0247 NT-3 growth factor receptor-like n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=UPI00145B0247
+--HKP-DDTFGVSIAVGLACFACVMLvVLFLLINKYGRRSKFGLKG
+>UniRef100_UPI001878C446 NT-3 growth factor receptor-like n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=UPI001878C446
+--IKPEEETFGVSIAIGLAGFTSVLLiVLFILINKYGRHNKFGLKG
+>UniRef100_UPI001886451F NT-3 growth factor receptor-like n=1 Tax=Syngnathus acus TaxID=161584 RepID=UPI001886451F
+--HNPHQDTFGVSIAVGLAGLACVILlMIILLIHKYGRHSKLRMKG
+>UniRef100_UPI0018896D3A high affinity nerve growth factor receptor-like isoform X1 n=1 Tax=Rhipicephalus microplus TaxID=6941 RepID=UPI0018896D3A
+--QTTMTDaEQHqIPMIVALSVLLVLVAvGGALVTLRWCqfRQD-YAAEG
+>UniRef100_UPI0018ACC414 NT-3 growth factor receptor-like isoform X3 n=1 Tax=Kryptolebias marmoratus TaxID=37003 RepID=UPI0018ACC414
+--SKPEEDASGVSMAVGLAGFAGVILiLLFVLINKYVRRSKFSIKG
+>UniRef100_UPI0018E1F578 NT-3 growth factor receptor-like isoform X2 n=1 Tax=Cyprinodon tularosa TaxID=77115 RepID=UPI0018E1F578
+--RKPLEDPFGVSMAVGLAAFACVVLvVLFVLINKYGRQSKLIIKG
+>UniRef100_UPI001C04C026 NT-3 growth factor receptor-like n=1 Tax=Melanotaenia boesemani TaxID=1250792 RepID=UPI001C04C026
+--QKPQEDTFGVSIAVGLTGFACVVLvVFFLLVSKYGRRSKFSMKG
+>UniRef100_UPI001CFAD8BB NT-3 growth factor receptor isoform X1 n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CFAD8BB
+--DKHEEDTFGVSIAVGLAAFACVLLvVLFIVINKYGRRSKFGMNG
+>UniRef100_UPI001E1D5D9A BDNF/NT-3 growth factors receptor-like n=1 Tax=Mercenaria mercenaria TaxID=6596 RepID=UPI001E1D5D9A
+--EKKEDKRVQIYIIVG-VGLV---LfASTMVISSLC-YIRFKKRD
+>UniRef100_UPI001EEABD23 BDNF/NT-3 growth factors receptor-like isoform X1 n=1 Tax=Daphnia pulicaria TaxID=35523 RepID=UPI001EEABD23
+--NAKPKEsppSSaGeieenhfLSVQIAMATIALVVGlTVTGFLIVWA-KVRPCKKmT
+>UniRef100_A0A4W6FT21 Tyrosine-protein kinase receptor n=1 Tax=Lates calcarifer TaxID=8187 RepID=A0A4W6FT21_LATCA
+--HKPEEDTFGVSIAVGLAGFACVMLVVLFLLInKYGRRSKFGMKG
+>UniRef100_A0A8C8DFZ9 Tyrosine-protein kinase receptor n=1 Tax=Oryzias sinensis TaxID=183150 RepID=A0A8C8DFZ9_9TELE
+--KEPQEDPMRVSVAVGVAGFACAVLTVFFLLIKYRRRSKLTMKG
+>UniRef100_A0A060X2F8 Tyrosine-protein kinase receptor n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A060X2F8_ONCMY
+---NLESRVFGVSVAVGLAVFACTFLlIMVLVINKCGQQSKFGIHR
+>UniRef100_A0A674H7D4 Tyrosine-protein kinase receptor n=1 Tax=Taeniopygia guttata TaxID=59729 RepID=A0A674H7D4_TAEGU
+---EPCPRCHQVSVAVALAVFACLSLsVLLILLNKCGRRSKFGINR
+>UniRef100_A0A6Q2WXU5 Tyrosine-protein kinase receptor n=1 Tax=Esox lucius TaxID=8010 RepID=A0A6Q2WXU5_ESOLU
+---VREGRVFGVSVAVGLAVFACTFLlIIGLAINKCGQHSKFGIHR
+>UniRef100_A0A822DTS9 Tyrosine-protein kinase receptor n=1 Tax=Ranitomeya imitator TaxID=111125 RepID=A0A822DTS9_9NEOB
+---KNVCVFHQVSVAVGLAVFACLFLlVMLVVLNKCGRHSKFGINR
+>UniRef100_A0A8C0BWF5 Tyrosine-protein kinase receptor n=1 Tax=Buteo japonicus TaxID=224669 RepID=A0A8C0BWF5_9AVES
+------QAEEAVSVAVALAVFACLFLsVMLIVLNKCGHRSKFGINR
+>UniRef100_A0A8C2H7V8 Tyrosine-protein kinase receptor n=1 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C2H7V8_CYPCA
+------------CMVVGIAgvALTgCILMl----VFLKYGRSSKFGMKG
+>UniRef100_A0A8C4WQE7 Tyrosine-protein kinase receptor n=1 Tax=Gopherus evgoodei TaxID=1825980 RepID=A0A8C4WQE7_9SAUR
+----ASPPSLQVSVAVALAVFACLFLsIMLIVLNKCGRHSKFGAAV
+>UniRef100_H2U747 Tyrosine-protein kinase receptor n=1 Tax=Takifugu rubripes TaxID=31033 RepID=H2U747_TAKRU
+---NQESHVFVVSVAVGLALFACTFLlIMVLIINKCGQHSKFGLHR
+>UniRef100_UPI000E1B613A high affinity nerve growth factor receptor n=1 Tax=Nothoprocta perdicaria TaxID=30464 RepID=UPI000E1B613A
+---SADDHVFGVSVAVALAVCAGLFLsVVLLALNKCGRRSKFGMNR
+>UniRef100_A0A2P4S803 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Bambusicola thoracicus TaxID=9083 RepID=A0A2P4S803_BAMTH
+----ADEHTFGVSVAVALAVFAsLFLSVMLIALNKCGRRSKFGINR
+>UniRef100_A0A8C1T0G6 Neurotrophic tyrosine kinase, receptor, type 2a n=1 Tax=Cyprinus carpio TaxID=7962 RepID=A0A8C1T0G6_CYPCA
+---GPPEDKVAVYVVVGIAAVTFTGFILMLVILKFGRNSKFGIKG
+>tr|A0A1L8F4K5|A0A1L8F4K5_XENLA Tyrosine-protein kinase receptor OS=Xenopus laevis GN=XELAEV_18042766mg PE=3 SV=1
+----VEENTFGISVAVGLAVFACFFLlLMLIVLNKCGRHSKFGINR
+>tr|I3JPP5|I3JPP5_ORENI Tyrosine-protein kinase receptor OS=Oreochromis niloticus PE=3 SV=1
+----LEEKFCSVYVAVGLGVFACKLLlIMVLVVYKCGHHSKFGIHR
+>tr|H9GLV6|H9GLV6_ANOCA Tyrosine-protein kinase receptor OS=Anolis carolinensis GN=NTRK1 PE=3 SV=2
+----LQEQPIGISVAVVLAVCACLFLsVMLIILNKCGQSSKFGISR
+>tr|G3WVB4|G3WVB4_SARHA Tyrosine-protein kinase receptor OS=Sarcophilus harrisii GN=NTRK1 PE=3 SV=1
+----KEDSYFGVSVAVGLAVFACLFLlVLLILLNKCGRRSKFGINR
+>tr|G3PIG2|G3PIG2_GASAC Tyrosine-protein kinase receptor OS=Gasterosteus aculeatus PE=3 SV=1
+----PESRAFVVRlsglPNVGLAVFACTFLlVMILVINKCGQHPKFGIHR
+>tr|A0A0Q3M050|A0A0Q3M050_AMAAE Tyrosine-protein kinase receptor OS=Amazona aestiva GN=AAES_139561 PE=3 SV=1
+----ADEHVFGVSVAVALAVFACLVLsLMLIVLNKCGRRSKFGINR
+>tr|H3B7K9|H3B7K9_LATCH Tyrosine-protein kinase receptor OS=Latimeria chalumnae GN=NTRK1 PE=3 SV=1
+----EDDSSFGVSVAVGLAIFAGVFLfALMIILHKCGRHSKFGMNI
+>tr|U3JK63|U3JK63_FICAL Tyrosine-protein kinase receptor OS=Ficedula albicollis GN=NTRK1 PE=3 SV=1
+----TDEHTFGVSVAVALAVFASPPAwHWLHRLGRAGGPPdglvLVSPQG
+>tr|F7D2D8|F7D2D8_MONDO Tyrosine-protein kinase receptor OS=Monodelphis domestica GN=NTRK1 PE=3 SV=1
+----HHILLYQVSVAVGLAVFACLFLsVLLILLNKCGRRSKFGINR
+>tr|W5LR48|W5LR48_ASTMX Tyrosine-protein kinase receptor OS=Astyanax mexicanus PE=3 SV=1
+----LESRLFGVRLFIGLCLIYCVFFlFMMYIVNLIL-KTIFALNL
+>tr|H0V0A7|H0V0A7_CAVPO Tyrosine-protein kinase receptor OS=Cavia porcellus GN=NTRK1 PE=3 SV=1
+----KDETPFGVSVAVGLAVFACLFLsAVLLVLNKCGQRNKFGINR
+>tr|A0A087XXX7|A0A087XXX7_POEFO Neurotrophic tyrosine kinase, receptor, type 1 OS=Poecilia formosa PE=3 SV=2
+----SGSRVFVVSVAVGLAVFTCIFLlITVLIINKCGQQTKFGIHL
+>tr|A0A0P7XH93|A0A0P7XH93_9TELE Uncharacterized protein (Fragment) OS=Scleropages formosus GN=Z043_105077 PE=3 SV=1
+----EPADGMAVYVIVGIAALASI-GfILLLILLKFGRNSKFGMKG
+>tr|A0A226MGG1|A0A226MGG1_CALSU Uncharacterized protein (Fragment) OS=Callipepla squamata GN=ASZ78_007216 PE=4 SV=1
+---TADEHTFGVSVAVALAVFTSLFLsVMLIVLNKCGRRSKFGINR
+>tr|A0A218UNW6|A0A218UNW6_9PASE High affinity nerve growth factor receptor OS=Lonchura striata domestica GN=NTRK1 PE=4 SV=1
+---TMDEHTFGVSVAVALAVFACLSLsVLLLLLNKCGRRSKFGMNR
+>tr|A0A091KTZ9|A0A091KTZ9_COLST Uncharacterized protein (Fragment) OS=Colius striatus GN=N325_00888 PE=4 SV=1
+----PCPCPWQVSVAVALAVFACLFLsIMLIVLNKCGRQSKFGI--
+>UniRef100_A0A6A4T2V3 Tyrosine-protein kinase receptor n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4T2V3_SCOMX
+---KPEDDTFGVSITVGLAGFVCVMLvVLFLLINKYGRHSKFGMKG
+>UniRef100_A0A7K5AE30 NTRK1 factor (Fragment) n=1 Tax=Centropus unirufus TaxID=1118519 RepID=A0A7K5AE30_9AVES
+-------RRPQVSVAVALAMFACLLLsVMLLVLNKCGRRSKFGIS-
+>UniRef100_A0A7K6GEE3 NTRK1 factor (Fragment) n=1 Tax=Malurus elegans TaxID=720584 RepID=A0A7K6GEE3_9PASS
+-------GTRGVSVAVALAVSACLSLsVILLLLNKCGRRSKFGIN-
+>UniRef100_A0A7K6WAS6 NTRK1 factor (Fragment) n=1 Tax=Steatornis caripensis TaxID=48435 RepID=A0A7K6WAS6_STECA
+-------RRHQISVAVALAMFACLFLsVMLIVLNKCGRPSKFGIN-
+>UniRef100_A0A7L1XDG5 NTRK1 factor (Fragment) n=1 Tax=Thinocorus orbignyianus TaxID=161742 RepID=A0A7L1XDG5_9AVES
+-------CCSQVSVAVALAVFACLFLsVMLILLNKCGRRSKFGI--
+>UniRef100_A0A4Z2HWA9 NT-3 growth factor receptor n=1 Tax=Liparis tanakae TaxID=230148 RepID=A0A4Z2HWA9_9TELE
+------PDWLNVSIAVGLAGFACVLLlVLFVLINKYGRRSKFGMK-
+>UniRef100_A0A0P7UGK4 High affinity nerve growth factor receptor-like (Fragment) n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7UGK4_SCLFO
+--GRTDSETFGISAGVGLAASGFGLLlITVLVINKCGQHPIFGLR-
+>UniRef100_A0A2U3YYL0 Tyrosine-protein kinase receptor n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3YYL0_LEPWE
+--EKKDETPFGVSVAVGLAVFACLFLsTFFLVLNKCGRRNKFGIN-
+>UniRef100_A0A3L7IG41 NTRK1 n=1 Tax=Cricetulus griseus TaxID=10029 RepID=A0A3L7IG41_CRIGR
+--EKKDETPFGVSVAVGLAVSAALFLsALLLVLNKCGQRSKFGIN-
+>UniRef100_UPI0013780E28 high affinity nerve growth factor receptor-like n=1 Tax=Thamnophis elegans TaxID=35005 RepID=UPI0013780E28
+--ETPEEHPVGISVAVGLAVCACLFLsIMLLFLNKCGQRSKFSLQ-
+>UniRef100_UPI001954645E high affinity nerve growth factor receptor isoform X4 n=1 Tax=Oreochromis aureus TaxID=47969 RepID=UPI001954645E
+--ENPESRMYLVYVAVGLGVFACKLLlIMVLVVYKCGHHSKFGIH-
+>UniRef100_A0A1E1X996 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Amblyomma aureolatum TaxID=187763 RepID=A0A1E1X996_9ACAR
+------HQ---LPMIVALSVLLVlLTAGGALVTLRWCQFR----Q-
+>UniRef100_A0A1S3JJK2 NT-3 growth factor receptor-like n=1 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3JJK2_LINUN
+-------DR--ISVTIGAVCVGvVlFLLGLVWAVRKANMKCtNMEMN-
+>UniRef100_A0A1Z5LFQ5 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Ornithodoros moubata TaxID=6938 RepID=A0A1Z5LFQ5_ORNMO
+------DQ---LPVILSCTFLVVlVAVVSVVVVLRWCQFR----Q-
+>UniRef100_A0A210PFI5 Tyrosine-protein kinase receptor n=1 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=A0A210PFI5_MIZYE
+------NDTLIIYIGTGSALLAVsVLVvIVVFIIRNFRRKLARQTT-
+>UniRef100_A0A2G8LPL7 Tyrosine-protein kinase receptor n=2 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8LPL7_STIJA
+------IYPVvVsCAVL--LPCII-IIL-FVVIRRRQKrdVHNRVRYR-
+>UniRef100_A0A2I4CFX7 Tyrosine-protein kinase receptor n=1 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4CFX7_9TELE
+------ESRVf-vVSVAVGLAVFACtFLLIMILVVNRCGQQSKFGIH-
+>UniRef100_A0A315VNY4 Tyrosine-protein kinase receptor n=1 Tax=Gambusia affinis TaxID=33528 RepID=A0A315VNY4_GAMAF
+------ESRVf-vVSVAVGLAVFTCiFLLITVLIINKCGHQTKFGIH-
+>UniRef100_A0A3B3QB60 Tyrosine-protein kinase receptor n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3QB60_9TELE
+------GSETfGVSVAVGLAVCAFgLLLITVLVTNKCNQQPKFGMR-
+>UniRef100_A0A3B3VTG3 Tyrosine-protein kinase receptor n=1 Tax=Poecilia latipinna TaxID=48699 RepID=A0A3B3VTG3_9TELE
+----------LFSLVRGACSLL-eGAHKTITVPDPHEHNHILNMR-
+>UniRef100_A0A3P8W789 Tyrosine-protein kinase receptor n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=A0A3P8W789_CYNSE
+------ESRVf-mVSVAVGLAVFACtFLFIMFLIINKCGQHSKFGIH-
+>UniRef100_A0A3P9KFH5 Receptor protein-tyrosine kinase n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9KFH5_ORYLA
+------ALIETYlvYVVVGIAGVA-lTGCVLMVIILKYGRNSKFGIK-
+>UniRef100_A0A3P9M858 Tyrosine-protein kinase receptor n=2 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9M858_ORYLA
+------ESRMl-vVSVAVGLAVFACvFLLAGVFVINKCGQQSKFGIH-
+>UniRef100_A0A3Q3BPQ4 Tyrosine-protein kinase receptor n=1 Tax=Kryptolebias marmoratus TaxID=37003 RepID=A0A3Q3BPQ4_KRYMA
+---------ILFLLCHDRVTDT-lKPSHHFAFVVLFGGNSKFGIK-
+>UniRef100_A0A3Q3VVZ7 Tyrosine-protein kinase receptor n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3VVZ7_MOLML
+------ADrlSLLqttLlllsfqvYVVVGIAGVA-lTGCVLMVIILKYGRNSKFGIK-
+>UniRef100_A0A3S3P6Q8 BDNF/NT-3 growth factors receptor-like protein (Fragment) n=1 Tax=Dinothrombium tinctorium TaxID=1965070 RepID=A0A3S3P6Q8_9ACAR
+------DD-IGGNKEVSVSEEN-kYIFIIIgVVILIVV--M---VT-
+>UniRef100_A0A4U5UHE7 Receptor protein-tyrosine kinase n=1 Tax=Collichthys lucidus TaxID=240159 RepID=A0A4U5UHE7_COLLU
+------EDTFGVSIAVGLAGFACvMLVVLFLLINKYGRRSKFGIK-
+>UniRef100_A0A4W3IEE8 Tyrosine-protein kinase receptor n=1 Tax=Callorhinchus milii TaxID=7868 RepID=A0A4W3IEE8_CALMI
+------FWLSQVSIAVGLAAFACvLLLVLFILINKYGRRSKFGMK-
+>UniRef100_A0A4W4G151 Tyrosine-protein kinase receptor n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4G151_ELEEL
+------LGLLqsRVYVVVGIAGVA-lTGCILMLIFLKYGRSSKFGLK-
+>UniRef100_A0A4W6FT23 Tyrosine-protein kinase receptor n=1 Tax=Lates calcarifer TaxID=8187 RepID=A0A4W6FT23_LATCA
+-----------VQSCDQILKYISlCLPLIFLPFISF-------FL-
+>UniRef100_A0A4Y2L1M9 Tyrosine-protein kinase receptor n=1 Tax=Araneus ventricosus TaxID=182803 RepID=A0A4Y2L1M9_ARAVE
+------EN--GllVSTLLTAAVVFVlVIT--IVCFVQWRKYR----Q-
+>UniRef100_A0A556TLR5 Tyrosine-protein kinase receptor n=1 Tax=Bagarius yarrelli TaxID=175774 RepID=A0A556TLR5_BAGYA
+------DSSLlGVSVAVGLAVFTCtFLLIMVLVINKCGQHSKFGIH-
+>UniRef100_A0A668AX53 Tyrosine-protein kinase receptor n=1 Tax=Myripristis murdjan TaxID=586833 RepID=A0A668AX53_9TELE
+------NVIVQVYVVVGIAAVA-fTGFLLMLVILKFGGNSKFGIK-
+>UniRef100_A0A670YRU2 Tyrosine-protein kinase receptor n=1 Tax=Pseudonaja textilis TaxID=8673 RepID=A0A670YRU2_PSETE
+------EEQPiGISVAVVLAVCACiFLSIMLVILNKCGQRSKFSIK-
+>UniRef100_A0A672IBY4 Tyrosine-protein kinase receptor n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672IBY4_SALFA
+------TS--PCspgpgptfrcyfifplwtavssypsqvYVVVGIAGVV-lTGCVLMVIILKYGRNSKFGIK-
+>UniRef100_A0A673A886 Tyrosine-protein kinase receptor n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A673A886_9TELE
+------ESRVf-vVSVAVGLAVLASsFLLIMVLVINRCGQHSKFGIP-
+>UniRef100_A0A673C7X0 Tyrosine-protein kinase receptor n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A673C7X0_9TELE
+------TGYFSVYVVVGIAGVA-lTGCVLMVIILKYGRNSKFGIK-
+>UniRef100_A0A6I8NXN8 Tyrosine-protein kinase receptor n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=A0A6I8NXN8_ORNAN
+------PLRPhQVSVAVGLAVFACvFLSGLLLTLNKCGRRSKFGFH-
+>UniRef100_A0A6J2UXA4 Tyrosine-protein kinase receptor n=1 Tax=Chanos chanos TaxID=29144 RepID=A0A6J2UXA4_CHACN
+------DDKVAVYVVVGIAGVA-lTGCILMLIILKYGRSPKFGMK-
+>UniRef100_A0A6J8CTP2 Tyrosine-protein kinase receptor n=1 Tax=Mytilus coruscus TaxID=42192 RepID=A0A6J8CTP2_MYTCO
+------SDNMVIYIATGSALFVViLAMtVVVFMVRRYRQKNNRPPN-
+>UniRef100_A0A6P6LJ09 Tyrosine-protein kinase receptor n=1 Tax=Carassius auratus TaxID=7957 RepID=A0A6P6LJ09_CARAU
+------ESTVfGVSVAVGLAVFTCtFLLIMVVAINKFGQRSKFGIH-
+>UniRef100_A0A6P8FTT0 Tyrosine-protein kinase receptor n=1 Tax=Clupea harengus TaxID=7950 RepID=A0A6P8FTT0_CLUHA
+------EDRV-VYVIVGIAVVT-fVLIVLMLVILKFGRNSKFGIK-
+>UniRef100_A0A6P9C9S3 Tyrosine-protein kinase receptor n=1 Tax=Pantherophis guttatus TaxID=94885 RepID=A0A6P9C9S3_PANGU
+------EEHPvGISVAVVLAVCACvFLSIMLLFLNKCGQSSKFSIK-
+>UniRef100_A0A6Q2YSX5 Tyrosine-protein kinase receptor n=1 Tax=Esox lucius TaxID=8010 RepID=A0A6Q2YSX5_ESOLU
+------EHFFQVYVVVGIAVVV-fTGFLLMLVFLKFGGNSKFGIK-
+>UniRef100_A0A7I8WBN9 Receptor protein-tyrosine kinase n=1 Tax=Dimorphilus gyrociliatus TaxID=2664684 RepID=A0A7I8WBN9_9ANNE
+------NDpKV-L-IMCSIFGSV---FLLIVILAALFLSAKIYVK-
+>UniRef100_A0A7M7N8L2 Tyrosine-protein kinase receptor n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=A0A7M7N8L2_STRPU
+------SQKLaSvPVYI--LAAVG-AGI-LLIVLVLFGrkyyTKKRERFR-
+>UniRef100_A0A803SQJ1 Tyrosine-protein kinase receptor n=1 Tax=Anolis carolinensis TaxID=28377 RepID=A0A803SQJ1_ANOCA
+------QEQPiGISVAVVLAVCAClFLSVMLIILNKCGQSSKFGIS-
+>UniRef100_A0A8B7P1H6 high affinity nerve growth factor receptor-like n=1 Tax=Hyalella azteca TaxID=294128 RepID=A0A8B7P1H6_HYAAZ
+------SE-VGnLQVL--LPSVTLlLLLLPLgIWVAKQPSTSRLPSS-
+>UniRef100_A0A8B7Y3N0 Tyrosine-protein kinase receptor n=1 Tax=Acanthaster planci TaxID=133434 RepID=A0A8B7Y3N0_ACAPL
+------TSSViTkVVVV--LVVII-VGT-LLVGLVGYRyRKRQHLYR-
+>UniRef100_A0A8B8DPR3 Tyrosine-protein kinase receptor n=1 Tax=Crassostrea virginica TaxID=6565 RepID=A0A8B8DPR3_CRAVI
+------EESSAVYVAIGISVFVFlTVIfVIIsLIVRHYRQKVTRHTH-
+>UniRef100_A0A8C2NLF1 Tyrosine-protein kinase receptor n=1 Tax=Capra hircus TaxID=9925 RepID=A0A8C2NLF1_CAPHI
+------DETPfGVSMAVGLAVFAClFLSTTFLVLNKCGRRNKFGIN-
+>UniRef100_A0A8C4PXA3 Tyrosine-protein kinase receptor n=1 Tax=Eptatretus burgeri TaxID=7764 RepID=A0A8C4PXA3_EPTBU
+------NESADVYVVVGVAAFVFaMLILFCLLLHKYGQRSKFGLK-
+>UniRef100_A0A8C4RYV9 Tyrosine-protein kinase receptor n=1 Tax=Erpetoichthys calabaricus TaxID=27687 RepID=A0A8C4RYV9_ERPCA
+------EEGITVYVVVGIAAVA-fTGFVLMLIILKFGRNSKFGIK-
+>UniRef100_A0A8C5ADU2 Tyrosine-protein kinase receptor n=1 Tax=Gadus morhua TaxID=8049 RepID=A0A8C5ADU2_GADMO
+------ESRLf-vISVAVGLAVFACaFLLVMLVVINRCGQHSKFGIH-
+>UniRef100_A0A8C5L615 Tyrosine-protein kinase receptor n=1 Tax=Jaculus jaculus TaxID=51337 RepID=A0A8C5L615_JACJA
+------DETPlGVSVAVGLAISATlFLSALLLVLNKCGQRSKFGIN-
+>UniRef100_A0A8C5QQF4 Tyrosine-protein kinase receptor n=1 Tax=Leptobrachium leishanense TaxID=445787 RepID=A0A8C5QQF4_9ANUR
+------EENTfGVSVAVGLAAFAClFLLLMLVVLNKCGRHSKFGIN-
+>UniRef100_A0A8C6RIK6 Tyrosine-protein kinase receptor n=1 Tax=Nannospalax galili TaxID=1026970 RepID=A0A8C6RIK6_NANGA
+------EELVvSSSLSKPGLCPGYdILCGCV------------SFP-
+>UniRef100_A0A8C6SCC0 Tyrosine-protein kinase receptor n=1 Tax=Neogobius melanostomus TaxID=47308 RepID=A0A8C6SCC0_9GOBI
+-------GflSLPqVYVVVGIAGVA-lTGCVLMSFATSSLPSSsPCVFL-
+>UniRef100_A0A8C6WVK3 Receptor protein-tyrosine kinase n=1 Tax=Neogobius melanostomus TaxID=47308 RepID=A0A8C6WVK3_9GOBI
+------SLR--VSVAVGLALFACsFLLVILVVMNKCGHHPKFGIH-
+>UniRef100_A0A8C7DQZ3 Tyrosine-protein kinase receptor n=1 Tax=Oncorhynchus kisutch TaxID=8019 RepID=A0A8C7DQZ3_ONCKI
+------DTGLTVYIVLGIAGVA-lIGCVLMVIILKYGRNSKFGMK-
+>UniRef100_A0A8C8SKH9 Tyrosine-protein kinase receptor n=1 Tax=Pelusios castaneus TaxID=367368 RepID=A0A8C8SKH9_9SAUR
+------EEHTfGVPMAVALAVFAClFLSVMLIVLNKCGRPSKFGIN-
+>UniRef100_A0A8D0DJW2 Tyrosine-protein kinase receptor n=1 Tax=Salvator merianae TaxID=96440 RepID=A0A8D0DJW2_9SAUR
+------EEHAvGISVAVVLAVSACiFLSAMLIILNKCGQPSKFGIN-
+>UniRef100_A0A8J2RHE7 Hypothetical protein n=1 Tax=Daphnia galeata TaxID=27404 RepID=A0A8J2RHE7_9CRUS
+------EDfAEndSLTVQIAMATIALvVGFTVVgFLVYWTKvRPCkKMSSE-
+>UniRef100_A0A8J6JQG9 Uncharacterized protein (Fragment) n=1 Tax=Eleutherodactylus coqui TaxID=57060 RepID=A0A8J6JQG9_ELECQ
+------EDNTfGISVAVGLAVFAClFLLVMLIVLNKCGRHSKFGIN-
+>UniRef100_F7D2D8 Tyrosine-protein kinase receptor n=1 Tax=Monodelphis domestica TaxID=13616 RepID=F7D2D8_MONDO
+------HILLyQVSVAVGLAVFAClFLSVLLILLNKCGRRSKFGIN-
+>UniRef100_G3WVB4 Tyrosine-protein kinase receptor n=2 Tax=Sarcophilus harrisii TaxID=9305 RepID=G3WVB4_SARHA
+------EDSYfGVSVAVGLAVFAClFLLVLLILLNKCGRRSKFGIN-
+>UniRef100_H2TI00 Tyrosine-protein kinase receptor n=1 Tax=Takifugu rubripes TaxID=31033 RepID=H2TI00_TAKRU
+---------FPLPGFDAADSLT-eLKPAVRSIGSLTAGFLLVPLL-
+>UniRef100_M3ZRU1 Tyrosine-protein kinase receptor n=1 Tax=Xiphophorus maculatus TaxID=8083 RepID=M3ZRU1_XIPMA
+------SFIYFqVYVVVGIAGVA-lTGCVLMVIILKYGRNSNFGIK-
+>UniRef100_UPI00038EF0E4 high affinity nerve growth factor receptor isoform X3 n=1 Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038EF0E4
+------DETPfGVSVAVGLAVFAClFLSAVLLVLNKCGQRNKFGIN-
+>UniRef100_UPI0003C1038A high affinity nerve growth factor receptor n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=UPI0003C1038A
+------DDSSfGVSVAVGLAIFAGvFLFALMIILHKCGRHSKFGMN-
+>UniRef100_UPI0003EA91C5 high affinity nerve growth factor receptor n=1 Tax=Lepisosteus oculatus TaxID=7918 RepID=UPI0003EA91C5
+------ENRNfGVSVAVGLAVFACtFLLIMLLVINKCGRQSKFGIH-
+>UniRef100_UPI000719C5E6 NT-3 growth factor receptor-like n=1 Tax=Priapulus caudatus TaxID=37621 RepID=UPI000719C5E6
+------NDRkTlTVYIAISAAVGATlIIAIIAIVVGRCY-WTRLKRR-
+>UniRef100_UPI00094EB825 BDNF/NT-3 growth factors receptor-like n=1 Tax=Hippocampus comes TaxID=109280 RepID=UPI00094EB825
+------DDSIAVYMVVGIAGVA-lMGCVLMVIILKYGRNSKFGIK-
+>UniRef100_UPI0009A41415 BDNF/NT-3 growth factors receptor-like n=1 Tax=Rhincodon typus TaxID=259920 RepID=UPI0009A41415
+------EDGIAVYVVVGVAALA-cTGLILMLIILKFGKHSKFGMK-
+>UniRef100_UPI000A1C63C1 high affinity nerve growth factor receptor-like n=1 Tax=Boleophthalmus pectinirostris TaxID=150288 RepID=UPI000A1C63C1
+------ESRVf--MVR-------SsVPLFLCGLQEPSGEELGRVLP-
+>UniRef100_UPI000C6D1B17 NT-3 growth factor receptor-like isoform X1 n=1 Tax=Centruroides sculpturatus TaxID=218467 RepID=UPI000C6D1B17
+------ENQETylLPFLIAGSVTFAvILLLTTFFSLQLRKCR----D-
+>UniRef100_UPI000C84F7AF high affinity nerve growth factor receptor isoform X3 n=1 Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI000C84F7AF
+------DETSfGVSVAVGLAVFAClFLSTLLLVLNKCGRRNKFGIN-
+>UniRef100_UPI0010547EED high affinity nerve growth factor receptor isoform X1 n=1 Tax=Gouania willdenowi TaxID=441366 RepID=UPI0010547EED
+------ESRVf-vVSVAIGLAVFACaFLLVLAVVINKCGQKSKFGIH-
+>UniRef100_UPI00109F4CE2 high affinity nerve growth factor receptor isoform X1 n=1 Tax=Erpetoichthys calabaricus TaxID=27687 RepID=UPI00109F4CE2
+------DNRNf-aVSVAVGLAVFACtFLIVMLFVINKCRQQSKLGIH-
+>UniRef100_UPI00109FCCAD high affinity nerve growth factor receptor isoform X1 n=1 Tax=Podarcis muralis TaxID=64176 RepID=UPI00109FCCAD
+------EEHTiGISVAVVLAVCAClFLSIMLIILNKCGQHSKFGIN-
+>UniRef100_UPI0010A58EFB BDNF/NT-3 growth factors receptor-like isoform X1 n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A58EFB
+------EDKVAVYAVVGVAGIA-lTGCILMLIILKYGRNSKYGIK-
+>UniRef100_UPI0010FAAD2B high affinity nerve growth factor receptor-like n=1 Tax=Scleropages formosus TaxID=113540 RepID=UPI0010FAAD2B
+------DSETfGISAGVGLAASGFgLLLITVLVINKCGQHPIFGLR-
+>UniRef100_UPI0011287781 high affinity nerve growth factor receptor isoform X1 n=1 Tax=Rhinatrema bivittatum TaxID=194408 RepID=UPI0011287781
+------EEHTfGVSVAVGLAVFACiFLSAMLIVLNKCRRHSKFGIN-
+>UniRef100_UPI0011456065 high affinity nerve growth factor receptor isoform X1 n=2 Tax=Takifugu rubripes TaxID=31033 RepID=UPI0011456065
+------ESHVf-vVSVAVGLALFACtFLLIMVLIINKCGQHSKFGLH-
+>UniRef100_UPI001176A79C high affinity nerve growth factor receptor isoform X1 n=1 Tax=Salarias fasciatus TaxID=181472 RepID=UPI001176A79C
+------ENRVf-vVSVAVGLALFACtFLLILLVVINKCGRHSKFGIH-
+>UniRef100_UPI0011EA1DA5 high affinity nerve growth factor receptor-like isoform X1 n=1 Tax=Archocentrus centrarchus TaxID=63155 RepID=UPI0011EA1DA5
+------ESQMy-lVYVAAGLGVLACsLLLIMVLVIYRCGQHSKFGIH-
+>UniRef100_UPI001402EFB4 BDNF/NT-3 growth factors receptor n=1 Tax=Amblyraja radiata TaxID=386614 RepID=UPI001402EFB4
+------EDSMTMYVILGISLLI-vTGISLGLGIVKFGKHSKFGMK-
+>UniRef100_UPI0014256FDC NT-3 growth factor receptor-like isoform X1 n=1 Tax=Anneissia japonica TaxID=1529436 RepID=UPI0014256FDC
+------PKGSlTvPYVI--VPAIL-AAA-FVFALVCVI-KSRHKKR-
+>UniRef100_UPI001455DB39 NT-3 growth factor receptor-like n=1 Tax=Asterias rubens TaxID=7604 RepID=UPI001455DB39
+------KNAAmQkVTIV--LVVII-VMI-LLAGGVGYKfRKSRHLYR-
+>UniRef100_UPI00145BA4F7 neurotrophic tyrosine kinase, receptor, type 2a n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=UPI00145BA4F7
+------EDRVAVYVVVGIAAVA-lVGFLLMLVILKFSGNSKFGIK-
+>UniRef100_UPI00145BB0FA neurotrophic tyrosine kinase, receptor, type 2b n=1 Tax=Periophthalmus magnuspinnatus TaxID=409849 RepID=UPI00145BB0FA
+------DSsseegsaalhcqrlltnpffLFQVYIVVGIAGVA-lTGCVLMMIILKYGRNSKFGIK-
+>UniRef100_UPI001471427F neurotrophic tyrosine kinase, receptor, type 2b n=1 Tax=Thalassophryne amazonica TaxID=390379 RepID=UPI001471427F
+------DDSVAKYVVAGITGVA-fVGSALMAIILKYGRNSNFGIK-
+>UniRef100_UPI001471F431 neurotrophic tyrosine kinase, receptor, type 2a isoform X2 n=1 Tax=Thalassophryne amazonica TaxID=390379 RepID=UPI001471F431
+------EDKVAMYVVLGIAFAA-lVGFVVMFSIIKCGGNTKFGIK-
+>UniRef100_UPI0015607BC2 high affinity nerve growth factor receptor-like isoform X1 n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=UPI0015607BC2
+------EHKNfGVAVAVGLALFVCtFLIVMLVIINKCGRQSKFGIS-
+>UniRef100_UPI0015AE1E05 BDNF/NT-3 growth factors receptor-like n=1 Tax=Stegodyphus dumicola TaxID=202533 RepID=UPI0015AE1E05
+------DErnKTSilISSLLTTSVIFVfLIILGIVCVVRWRKFR----M-
+>UniRef100_UPI001643E3A2 LOW QUALITY PROTEIN: high affinity nerve growth factor receptor n=1 Tax=Neolamprologus brichardi TaxID=32507 RepID=UPI001643E3A2
+------ESRMy-lVYVAVGLGVFACkLLLIMVLVVYKCGHHSKFGIH-
+>UniRef100_UPI00165CDFFC high affinity nerve growth factor receptor n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=UPI00165CDFFC
+------ESRAf-vVYVAVGLAVFACtCLLIIVLVINKYGQQSKFGIH-
+>UniRef100_UPI001864DAA8 high affinity nerve growth factor receptor n=1 Tax=Megalops cyprinoides TaxID=118141 RepID=UPI001864DAA8
+------ESRVfGVSVAVGLAVFACtFILLMVLVINKCGQRSKFGIH-
+>UniRef100_UPI0018862491 high affinity nerve growth factor receptor n=1 Tax=Syngnathus acus TaxID=161584 RepID=UPI0018862491
+------ESRVf-vVSVAVGLAAFACvFLLVTALVINKCGHNSKFGIH-
+>UniRef100_UPI0018D7336C BDNF/NT-3 growth factors receptor-like isoform X1 n=1 Tax=Patiria miniata TaxID=46514 RepID=UPI0018D7336C
+------STSLiTkVTII--LVVLI-VGI-LLASGVGYKyRKSRHLYR-
+>UniRef100_UPI001B88A2E6 BDNF/NT-3 growth factors receptor-like n=1 Tax=Gigantopelta aegis TaxID=1735272 RepID=UPI001B88A2E6
+------EDATfedSnkpLeYLEADPRPIP-rQTLLFFFIQVAIGiSVAiavVLGLviliivlvR-
+>UniRef100_UPI001C0A33C2 neurotrophic tyrosine kinase, receptor, type 2b isoform X1 n=2 Tax=Alosa sapidissima TaxID=34773 RepID=UPI001C0A33C2
+------EDKVAVYAVVGVAGVA-lTGCILMLVILKYGRNSKFGLK-
+>UniRef100_UPI001C729C33 BDNF/NT-3 growth factors receptor-like n=1 Tax=Parasteatoda tepidariorum TaxID=114398 RepID=UPI001C729C33
+------EEknKSSamISTGFTASVVAIvCVSvFGIVCLIQWKKYR----N-
+>UniRef100_UPI001CFA4DDE high affinity nerve growth factor receptor n=1 Tax=Protopterus annectens TaxID=7888 RepID=UPI001CFA4DDE
+------EEHTfGVSIAVGLAVFACiFLSLMLILLNKCGRQSKFVMN-
+>UniRef100_UPI001EB0A89B NT-3 growth factor receptor-like n=1 Tax=Haliotis rufescens TaxID=6454 RepID=UPI001EB0A89B
+------DD--fKITVIVTASATAIiLAFtITLVVCVRRHRRK---IN-
+>UniRef100_UPI001F086A4D high affinity nerve growth factor receptor isoform X2 n=1 Tax=Hypomesus transpacificus TaxID=137520 RepID=UPI001F086A4D
+------ESRVfGVSVAVGLAVFVCtFLLIMVLVINKCGQHSKFGIH-
+>tr|E7EY55|E7EY55_DANRE Tyrosine-protein kinase receptor OS=Danio rerio GN=ntrk3b PE=3 SV=2
+-EGKRPEDSFGMSIAVGLAGFGCVFLiVIFVLINKYSRRNKFGIK-
+>tr|L8YE36|L8YE36_TUPCH Tyrosine-protein kinase receptor OS=Tupaia chinensis GN=TREES_T100002226 PE=3 SV=1
+-W---ENDTAKQSRH-------STKTaTFMIFV-----KGYFLSI-
+>tr|W4YY81|W4YY81_STRPU Tyrosine-protein kinase receptor OS=Strongylocentrotus purpuratus PE=3 SV=1
+-TINPPMSRGTPSYVYILAAVGAGiLLiVLVLFGRKYYTKkrERFRNL-
+>tr|A0A2C9JRI5|A0A2C9JRI5_BIOGL Uncharacterized protein OS=Biomphalaria glabrata PE=4 SV=1
+-STSSNSQDETPWIHIFLPAFGSIlFIgIVVVVIRSVWRRsrLTRLMT-
+>UniRef100_A0A7K5IBS7 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Crotophaga sulcirostris TaxID=33598 RepID=A0A7K5IBS7_CROSL
+----TDEHVFGVSVAVALAVFACLFLsIMFIVLNKCGRRSKFGIN-
+>UniRef100_A0A7K6INN7 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Machaerirhynchus nigripectus TaxID=1160894 RepID=A0A7K6INN7_9CORV
+----TDEHAFGISVAVALAVFACLSLsVMLILLNKCGRRSKFGIN-
+>UniRef100_A0A7L2G3P5 NTRK1 factor (Fragment) n=1 Tax=Nyctibius grandis TaxID=48427 RepID=A0A7L2G3P5_NYCGR
+----TDEHTFGISVAVALAVFACLFLsFMLLVLNKCGRRSKFGIN-
+>UniRef100_A0A7L3G5B7 NTRK1 factor (Fragment) n=1 Tax=Anhinga rufa TaxID=317792 RepID=A0A7L3G5B7_9AVES
+----EEMRHIKrvVSVAVALAVFACLFLsVLLIVLNKCGRRSKFGIN-
+>UniRef100_A0A7L3X369 NTRK1 factor (Fragment) n=1 Tax=Atlantisia rogersi TaxID=2478892 RepID=A0A7L3X369_9GRUI
+----TDDHTFGVSVAVALAVLASLFLsIMLVVLSKCGRRSKFGIN-
+>UniRef100_A0A6F9A7K0 I-set domain-containing protein (Fragment) n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9A7K0_9TELE
+----YGQDRKTVYVVVGIVAVAFVGFLLMLVILKFGGNSKFGIKD
+>UniRef100_A0A6F9ACX8 Ig-like domain-containing protein (Fragment) n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9ACX8_9TELE
+----YGQDRKTIYVVVGVAAVAFTGFLLMLVILKFGGNSKFGIKG
+>UniRef100_A0A6I9Q3A1 usherin-like n=1 Tax=Notothenia coriiceps TaxID=8208 RepID=A0A6I9Q3A1_9TELE
+--PDPPEDGVAVYVVVGIAAVAFTGFLLMLVLLKFGGNSKFGIKG
+>UniRef100_A0A3P8VYZ6 Neurotrophic tyrosine kinase, receptor, type 2a n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=A0A3P8VYZ6_CYNSE
+---SKTTEYMAQHRGVWLDQSCTKARDREPQVVRVAKNCTL-IKV
+>UniRef100_A0A3P9Q2Q0 Neurotrophic receptor tyrosine kinase 2 n=1 Tax=Poecilia reticulata TaxID=8081 RepID=A0A3P9Q2Q0_POERE
+----------NLFSLVRSACSLLEGAHKTITVPDPHEHNHILNMC
+>UniRef100_A0A3Q3BXP0 Neurotrophic receptor tyrosine kinase 2 n=1 Tax=Haplochromis burtoni TaxID=8153 RepID=A0A3Q3BXP0_HAPBU
+---NQREDRVAVYVVVGIAAVAFTGFLVMLIILKFGGNSKFGIKG
+>UniRef100_A0A3Q3J7P6 Neurotrophic receptor tyrosine kinase 2 n=1 Tax=Monopterus albus TaxID=43700 RepID=A0A3Q3J7P6_MONAL
+---VLHQQRVPLQTHLRTELLCMWWWELLL---------------
+>UniRef100_UPI000CDF95BF BDNF/NT-3 growth factors receptor-like isoform X1 n=1 Tax=Salvelinus alpinus TaxID=8036 RepID=UPI000CDF95BF
+-----------TTGICGRrdCSSSLHGFSIDAGHLEIRGKLKVWNQR
+>UniRef100_A0A8C4XSI1 Ig-like domain-containing protein n=1 Tax=Falco tinnunculus TaxID=100819 RepID=A0A8C4XSI1_FALTI
+--FKDSASFLHCAQLQPGSVSKGTGSMPT----------------
+>UniRef100_UPI00071D33F6 high affinity nerve growth factor receptor n=1 Tax=Calidris pugnax TaxID=198806 RepID=UPI00071D33F6
+-----DDHTFGVSVAVALAVFACFFLsVMLIVLNKCGRRSKFGIN-
+>UniRef100_A0A834FDF8 High affinity nerve growth factor receptor n=1 Tax=Oryzias melastigma TaxID=30732 RepID=A0A834FDF8_ORYME
+--------VLVVSVAVGLAVFACVFLlAAVFVINKCGQQSKFGIH-
+>UniRef100_A0A151PE72 Tyrosine-protein kinase receptor n=1 Tax=Alligator mississippiensis TaxID=8496 RepID=A0A151PE72_ALLMI
+----SEDHGIGVSVAVALAVFACVFLsVMLIVLNKCGRHSKFGINR
+>UniRef100_A0A670K2X1 Tyrosine-protein kinase receptor n=1 Tax=Podarcis muralis TaxID=64176 RepID=A0A670K2X1_PODMU
+----PEEHTIGISVAVVLAVCACLFLsIMLIILNKCGQHSKFGINR
+>UniRef100_A0A672V0A4 Tyrosine-protein kinase receptor n=1 Tax=Strigops habroptila TaxID=2489341 RepID=A0A672V0A4_STRHB
+----ADEHAFGVR-GCSMAGGTRTPQkGGDKALRDSTKQSRAGC--
+>UniRef100_A0A674KA81 Tyrosine-protein kinase receptor n=1 Tax=Terrapene carolina triunguis TaxID=2587831 RepID=A0A674KA81_TERCA
+----SEEHTFGVSVAVALAVFACLFLsIMLIVLNKCGRHSKFGINR
+>UniRef100_A0A6J3EGS6 Tyrosine-protein kinase receptor n=1 Tax=Aythya fuligula TaxID=219594 RepID=A0A6J3EGS6_AYTFU
+----MDEHTFGVSVAVALAVFACLFLsVMLLVLNKCGHRSKFGINR
+>UniRef100_A0A7K5G0A6 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Probosciger aterrimus TaxID=141839 RepID=A0A7K5G0A6_PROAR
+----VvDEHAFGVSVAVALAVFACLFLsLMFIALNKCGRRSKFGINR
+>UniRef100_A0A7K8KHX4 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Lophotis ruficrista TaxID=172689 RepID=A0A7K8KHX4_9GRUI
+----ADEHAFGVLVAVVLAMFACLFLsLTLIVLNKCGRRSKFGINR
+>UniRef100_A0A7K9M8T3 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Oceanodroma tethys TaxID=79633 RepID=A0A7K9M8T3_OCETE
+----TDEHTFGVRGCSMVwaggtrtpAGGACLFLsVMLIILNKCGRRSKFGINR
+>UniRef100_A0A7K9SDC5 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Galbula dea TaxID=1109041 RepID=A0A7K9SDC5_9AVES
+----TDEHTFGVSVAVALAVFASFFLsIMLVVVNKCGHRSKFGINR
+>UniRef100_A0A7L0FVR4 NT-3 growth factor receptor (Fragment) n=1 Tax=Corythaixoides concolor TaxID=103956 RepID=A0A7L0FVR4_CORCN
+----TDEHTFGVPVAVALAIFACLFLsIMLLVLNKCGRRSKFGINR
+>UniRef100_A0A7L1N8H7 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Rhinopomastus cyanomelas TaxID=113115 RepID=A0A7L1N8H7_RHICY
+----ADDHTFGVSVAVALAVFASLSLsIVFIILSKCGRRSKFGINR
+>UniRef100_A0A7L2V7L7 NTRK1 factor (Fragment) n=1 Tax=Brachypteracias leptosomus TaxID=135165 RepID=A0A7L2V7L7_9AVES
+----WmDGWMEGTSVSPGL--ALPLLPwRGGTRVPPCPWPCPLSPQG
+>UniRef100_A0A851Y2A7 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Eolophus roseicapilla TaxID=176039 RepID=A0A851Y2A7_EOLRO
+----ACPRCAQVSVAVALAVFACLFLsLMLIALNKCGRRSKFGINR
+>UniRef100_A0A851ZH96 Tyrosine-protein kinase receptor (Fragment) n=1 Tax=Halcyon senegalensis TaxID=342381 RepID=A0A851ZH96_9AVES
+----PAGAGGGVGCSAEP-GTGCTGWaMGPTPPFHMALSSSPQGSA
+>UniRef100_A0A8B9NF07 Tyrosine-protein kinase receptor n=1 Tax=Accipiter nisus TaxID=211598 RepID=A0A8B9NF07_9AVES
+----PHSCHHQVSVAVALAVFACLFLsIMLIVLNKCGRRSKFGINR
+>UniRef100_A0A8B9Q5V2 Tyrosine-protein kinase receptor n=1 Tax=Apteryx owenii TaxID=8824 RepID=A0A8B9Q5V2_APTOW
+----TDEHAFGVSVAVALAVCACLFLsVTLIVLNKCGRRSKFGINR
+>UniRef100_A0A8C3ISA0 Tyrosine-protein kinase receptor n=1 Tax=Chrysemys picta bellii TaxID=8478 RepID=A0A8C3ISA0_CHRPI
+----PGDSPLGNYCKTTCSAHCSPLSaPQRWQWWWGGGLLEPDISP
+>UniRef100_A0A8C5TCQ2 Tyrosine-protein kinase receptor n=1 Tax=Malurus cyaneus samueli TaxID=2593467 RepID=A0A8C5TCQ2_9PASS
+----TDEHTFGVSVAVAL-------------AVSCGRRSKFGINR
+>UniRef100_A0A8D0G6I8 Tyrosine-protein kinase receptor n=1 Tax=Sphenodon punctatus TaxID=8508 RepID=A0A8D0G6I8_SPHPU
+----PDEHTFGIFMAVALAVCACIFLsVMLIVLNKCGRHSKFGINR
+>UniRef100_Q7YWD8 Receptor protein-tyrosine kinase (Fragment) n=1 Tax=Lymnaea stagnalis TaxID=6523 RepID=Q7YWD8_LYMST
+----P-TEDFGPQTQVILpVVGVVIHLiSAVFIIYLCQRAKHRSHAR
+>UniRef100_T1JCR9 Receptor protein-tyrosine kinase n=1 Tax=Strigamia maritima TaxID=126957 RepID=T1JCR9_STRMM
+----Li-LYVLGVAILILI-----LIIgLLAFLRHRRHQKRRLNILQ
+>UniRef100_U3JK63 Tyrosine-protein kinase receptor n=1 Tax=Ficedula albicollis TaxID=59894 RepID=U3JK63_FICAL
+----TDEHTFGVSVAVALAVLGRAGGpPDGLVL--------VSPQG
+>UniRef100_UPI00074FE4CF high affinity nerve growth factor receptor n=1 Tax=Gekko japonicus TaxID=146911 RepID=UPI00074FE4CF
+----PEEHTFGVSVAVVLAVCACIFLsIMLIVLNKCGQHSKFGVNR
+>UniRef100_UPI0007AD86BD high affinity nerve growth factor receptor n=1 Tax=Ficedula albicollis TaxID=59894 RepID=UPI0007AD86BD
+----TDEHTFGVSVAVALAVFGQGEQgAARQSLALAAQAG----AS
+>UniRef100_UPI000D6A0C7A high affinity nerve growth factor receptor n=1 Tax=Python bivittatus TaxID=176946 RepID=UPI000D6A0C7A
+----TEEHPVGISVAVVLAVCACIFLsVMLVILNKCGRRSKFSIKR
+>UniRef100_UPI000FD647AA high affinity nerve growth factor receptor n=1 Tax=Corapipo altera TaxID=415028 RepID=UPI000FD647AA
+----TDDHTFGVSVAVALAVFTCLSLsIMLILLNKCGRRSKFGINR
+>UniRef100_UPI0011C47512 high affinity nerve growth factor receptor n=1 Tax=Calypte anna TaxID=9244 RepID=UPI0011C47512
+----TEEHTFGISVAVALAVFACLFLsLMLIVLNKCGHHSKFSINR
+>UniRef100_A0A6I8P902 Tyrosine-protein kinase receptor n=1 Tax=Ornithorhynchus anatinus TaxID=9258 RepID=A0A6I8P902_ORNAN
+--------PFGVSVAVGLAVFACVFLsGLLLTLNKCGRRSKFGFHR
+>UniRef100_A0A8D2IU26 Tyrosine-protein kinase receptor n=1 Tax=Varanus komodoensis TaxID=61221 RepID=A0A8D2IU26_VARKO
+--------REGCSAAGRIAGFFGGWLgRLptKAVVLLSGPRPPLSLLG
+>UniRef100_UPI00051C4B81 LOW QUALITY PROTEIN: high affinity nerve growth factor receptor n=1 Tax=Cuculus canorus TaxID=55661 RepID=UPI00051C4B81
+--------DIGVSVAVALAIFACLFLsVMLIVLNKCGRRSKFGINR
+>UniRef100_UPI00071CA533 high affinity nerve growth factor receptor-like n=1 Tax=Calidris pugnax TaxID=198806 RepID=UPI00071CA533
+--------SGGSTHSPVAGGSPARWQvRL--TLSPCRRATSGCSMG
+>UniRef100_UPI001B7F1798 high affinity nerve growth factor receptor-like n=1 Tax=Carcharodon carcharias TaxID=13397 RepID=UPI001B7F1798
+-----------IWVAVTLALLASLFLtLMLIVIRKYRQNSKFNNNN
+>UniRef100_UPI001CF79018 high affinity nerve growth factor receptor n=1 Tax=Varanus komodoensis TaxID=61221 RepID=UPI001CF79018
+--------PAREERPPKRGRFMAVWAaVL-----------ERAAPG
