@@ -16,10 +16,6 @@ More detailed environment settings are located in env.yaml
 ## Data
 Data used for evaluating the model is already put in the `data` folder
 
-For data needed of CLEAN model, please download `split100.csv`, `split100.fasta` under `data/CLEAN` directory
-
-For data used as represent learning, please refer to the same [dataset](https://drive.google.com/drive/folders/11dNGqPYfLE3M-Mbh4U7IQpuHxJpuRr4g?usp=sharing) as SaProt and DPLM and put it into `data/LMDB` folder
-
 ---
 
 
